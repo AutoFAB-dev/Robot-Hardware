@@ -1,5 +1,9 @@
 # AutoFAB Robot Hardware
 
+[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/hardware-CERN--OHL--P--2.0-blue.svg)](LICENSE)
+[![Docs: CC-BY-4.0](https://img.shields.io/badge/docs-CC--BY--4.0-lightgrey.svg)](LICENSE)
+[![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
+
 Open hardware for the **AutoFAB cell**: a low-cost robot arm on a linear rail that takes finished parts off your 3D printers. AutoFAB runs it with **human-supervised AI**.
 
 > **Community-supported.** This repo is for makers who want to build their own cell. For the plug-and-play, done-for-you setup, go to **[autofab.net](https://autofab.net)**.
@@ -45,10 +49,15 @@ The AutoFAB cell combines two open-source projects. Thank you to their authors.
 - **[ElRobot](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot)** by NormaCore: the arm (Apache-2.0).
 - **[leslider](https://github.com/pham-tuan-binh/leslider)** by Pham Tuan Binh: the linear rail design and its STS3215 servo recipe (Apache-2.0). leslider was designed for the SO-101 arm; we use its rail with ElRobot.
 
+## Disclaimer
+This is DIY hardware. You build, power and run it **at your own risk**. The licences give no warranty beyond what they themselves state (see [LICENSE](LICENSE)). Use is **human-supervised only**: someone must watch the cell whenever the arm has power. Read [docs/safety.md](docs/safety.md) before you power the arm.
+
 ## License
 - AutoFAB-authored hardware: **CERN-OHL-P-2.0**
 - Documentation: **CC-BY-4.0**
 - Code: **Apache-2.0**
 - Third-party files keep their original licences.
 
-See [LICENSE](LICENSE). Contributions (people and AI agents): [CONTRIBUTING.md](CONTRIBUTING.md), [AGENTS.md](AGENTS.md). Security: [SECURITY.md](SECURITY.md).
+See [LICENSE](LICENSE) and [NOTICE](NOTICE). The AutoFAB name and logo are not licensed: [TRADEMARKS.md](TRADEMARKS.md). Changes: [CHANGELOG.md](CHANGELOG.md).
+
+Contributions (people and AI agents): [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [GOVERNANCE.md](GOVERNANCE.md), [AGENTS.md](AGENTS.md). Security: [SECURITY.md](SECURITY.md).

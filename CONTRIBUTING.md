@@ -1,5 +1,5 @@
 # Contributing
-Thanks for helping. This project is community-supported. These rules apply to people and AI agents alike (agents also read [AGENTS.md](AGENTS.md)).
+Thanks for helping. This project is community-supported. These rules apply to people and AI agents alike (agents also read [AGENTS.md](AGENTS.md)). Please follow the [Code of Conduct](CODE_OF_CONDUCT.md). How outside PRs are reviewed: [GOVERNANCE.md](GOVERNANCE.md).
 
 ## The flow
 1. **One issue = one branch = one PR.** Name the branch `<type>/<short-topic>` (`docs/`, `cad/`, `bom/`, `firmware/`, `fix/`), plus the issue number if there is one.

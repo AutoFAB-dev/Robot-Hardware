@@ -6,3 +6,6 @@
 - First motions: small, single-joint moves, with your hand on the stop.
 - Enclosed printers: doors are opened by hand. Arm door opening isn't supported.
 - Don't leave the cell running unattended. The cell runs with human-supervised AI and is not designed for unattended use.
+
+## Disclaimer
+DIY at your own risk. The licences in this repository give no warranty beyond what they themselves state (see [LICENSE](../LICENSE)). Use is **human-supervised only**.

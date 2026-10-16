@@ -1,0 +1,16 @@
+AutoFAB Robot Hardware
+Copyright (c) 2026 AutoFAB
+
+This repository includes third-party material. Those files keep their
+original licences; texts are in LICENSES/ and cad/elrobot/LICENSE.
+
+ElRobot (hardware/elrobot) by NormaCore
+https://github.com/norma-core/norma-core/tree/main/hardware/elrobot
+Licensed Apache-2.0. The norma-core repository root is MIT; the
+hardware/elrobot folder carries its own Apache-2.0 licence. The four
+camera-mount files in cad/elrobot/ are unmodified upstream copies.
+
+leslider by Pham Tuan Binh
+https://github.com/pham-tuan-binh/leslider
+Licensed Apache-2.0. The rail design and its servo recipe follow
+leslider; no leslider files are copied here.
