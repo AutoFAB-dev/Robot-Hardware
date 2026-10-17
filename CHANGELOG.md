@@ -16,6 +16,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Issues and build reports welcome; pull requests by invitation for now.
 - Customer-facing controller setup only (flash the provided image, power-up, network join, claim at app.autofab.net).
 - Docs restructured as a numbered self-service path (`docs/setup/01`–`07`) plus troubleshooting, getting help, and a Reference section.
+- Steps 05–07 and troubleshooting aligned with customer-visible onboarding (setup card, captive page, claim after leaving setup Wi-Fi, organization, printer’s own app first, camera ready-checks).
 
 ### Removed
 - In-progress drafts that were not part of the kit.
