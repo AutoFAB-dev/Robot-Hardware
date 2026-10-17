@@ -32,9 +32,9 @@ Facts from the parts list and reference docs, not a product pitch.
 - **Controller:** Raspberry Pi 5 (8 GB listed; 4 GB works; Pi 4 with 4 GB+ also works), official USB-C supply (27 W on Pi 5), Waveshare Bus Servo Adapter (A).
 - **Cameras:** USB UVC wrist camera (default: Innomaker U20CAM-1080P; the printed 27 mm mount fits it; Arducam OV9782 is a supported alternative) and an optional 1080p scene camera on a powered USB 3 hub.
 - **Stop:** physical e-stop (or a switched strip) in the **12 V** lead, within reach before any motion.
-- **Printers:** AutoFAB’s closed software talks to printers over the LAN (Klipper and Bambu). It has run on a Voron (Klipper), Creality K2 Plus with CFS, Creality K1, Bambu Lab X1C, Bambu Lab H2S, and FlashForge Adventurer.
+- **Printers:** AutoFAB’s managed service connects to printers over the LAN.
 
-The arm is limp without 12 V. Enclosed printer doors are opened by hand; arm door opening is not supported. The cell is not for unattended use.
+The arm is limp without 12 V. Enclosed printer doors are opened by hand; arm door opening is not supported. During build, setup and first motions, someone must be present at the stop.
 
 ## Repository layout
 
@@ -133,7 +133,7 @@ Read [`docs/reference/safety.md`](docs/reference/safety.md) before you apply 12 
 - Keep 12 V **off and unplugged** through build and first-day setup. Support the arm; it is limp without power.
 - Servos take power only from 12 V. The Pi has its own USB-C supply. Do not mix those.
 - Stay out of the arm’s reach (430 mm from the base, plus rail travel) while it moves. Pinch points: gripper and rail rack.
-- First motions: small, single-joint, hand on the stop. Do not leave the cell running unattended.
+- First motions: small, single-joint, hand on the stop. During setup and first motions, do not leave the cell running unattended.
 
 If the stop fails or the arm moves when it should not, unplug 12 V and report it privately ([`SECURITY.md`](SECURITY.md)).
 
@@ -146,7 +146,7 @@ There is no `CONTRIBUTING.md` yet. For this repo:
 - Before a push, run [`tools/check.sh`](tools/check.sh) (relative links, public-safety scan, large files).
 - Do not invent print settings, quantities, or servo IDs. Cite ElRobot or leslider, or mark **TODO**.
 
-**Service and setup help** (image, access keys, managed production): [autofab.net](https://autofab.net) · [`docs/getting-help.md`](docs/getting-help.md).
+**Service and setup help** (access keys, managed production): [autofab.net](https://autofab.net) · [`docs/getting-help.md`](docs/getting-help.md).
 
 **Security:** report privately via GitHub’s Security tab. See [`SECURITY.md`](SECURITY.md).
 
