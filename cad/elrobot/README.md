@@ -8,4 +8,4 @@ They're licensed under **Apache-2.0** (see `LICENSE` in this folder). Copyright 
 | stl/CameraMount_square_27mm.stl, _34mm, _regular | hardware/elrobot/STL/gripper_camera_mounts/ |
 | 3mf/gripper_camera_mounts_basic.3mf | hardware/elrobot/print/basic/ |
 
-For every other arm part, use the upstream STL/3MF set and print manual directly.
+These are the ElRobot files copied into this repo. Use the rest of the ElRobot STL/3MF set from upstream. Printed-part lists: [arm parts](../../docs/reference/arm/parts.md), [cameras parts](../../docs/reference/cameras/parts.md).

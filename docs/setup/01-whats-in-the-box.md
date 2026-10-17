@@ -23,7 +23,7 @@ This is the first step of the self-service guide. Tick each item before you go o
 - [ ] Small computer (Raspberry Pi 5, or a Pi 4)
 - [ ] microSD card (16 GB or larger)
 - [ ] Powered USB hub
-- [ ] Wrist camera and its printed mount
+- [ ] Wrist camera
 - [ ] Scene camera (the one that looks at the printer bed)
 - [ ] USB cables, and an Ethernet cable if you have one
 

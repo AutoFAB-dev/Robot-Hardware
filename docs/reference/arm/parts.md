@@ -8,7 +8,7 @@ Print defaults (ElRobot README, follower): **PLA**, **0.4 mm nozzle**, **0.2 mm 
 
 Follower filament stated upstream: about **360 g PLA**.
 
-Driver board, 12 V supply and enclosures: [controller](../controller/parts.md). Camera and mounts: [cameras](../cameras/parts.md).
+Driver board, 12 V supply and enclosures: [controller](../controller/parts.md). Cameras: [cameras](../cameras/parts.md).
 
 ## Printed
 

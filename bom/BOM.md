@@ -7,7 +7,7 @@ Quantities for one AutoFAB cell. Links are examples; any equivalent part works u
 | 8 | Feetech STS3215 servo, **12 V**, 30 kg·cm | [WowRobo](https://shop.wowrobo.com/products/feetech-sts3215-servo-12v-30kg-high-torque-servo-for-so-arm100) · [Seeed](https://www.seeedstudio.com/STS3215-30KG-Serial-Servo-p-6340.html) |
 | 1 | Serial bus servo driver | [Waveshare Bus Servo Adapter (A)](https://www.waveshare.com/bus-servo-adapter-a.htm) |
 | 1 | 12 V DC power supply, 5.5×2.1 mm barrel (ElRobot specifies 4 A; we recommend 10 A for arm + rail headroom) | [Waveshare 12 V 4 A](https://www.waveshare.com/psu-12v4a-5.5-2.1.htm) or an equivalent 12 V 10 A supply |
-| 1 set | Printed ElRobot parts + fasteners | [ElRobot files and manual](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot) |
+| 1 set | Printed ElRobot parts + fasteners | [ElRobot files and manual](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot) · [arm parts](../docs/reference/arm/parts.md) · [cameras parts](../docs/reference/cameras/parts.md) |
 | 2 | Bench clamps | any |
 
 ## Rail (leslider design)
@@ -30,7 +30,6 @@ Quantities for one AutoFAB cell. Links are examples; any equivalent part works u
 | 1 | microSD card, 16 GB+ (64 GB A2 recommended) | [Raspberry Pi 64 GB](https://www.pishop.us/product/raspberry-pi-sd-card-64gb/) |
 | 1 | Powered USB hub (cameras need external power) | any externally powered USB 3 hub |
 | 1 | Wrist camera: Innomaker U20CAM-1080P (any UVC camera works) | [Amazon B0CNCSFQC1](https://www.amazon.com/dp/B0CNCSFQC1) |
-| 1 | Wrist-camera mount, printed + 4× M2×6 self-tapping + 2× M3×8 | [`cad/elrobot/stl/CameraMount_square_27mm.stl`](../cad/elrobot/stl/CameraMount_square_27mm.stl) |
 | 1 | Scene camera: any 1080p UVC USB webcam | e.g. [Arducam 1080p](https://www.amazon.com/dp/B0CZL1X463) or Logitech C920 |
 | 2+ | USB data cables | — |
 | 1 | Ethernet cable (recommended) | Cat6 |

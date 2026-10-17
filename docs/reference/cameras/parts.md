@@ -1,10 +1,10 @@
 # Cameras — parts
 
-Credit: wrist camera (manual W1), camera mount (manual S), and fastener counts from the ElRobot [follower assembly manual](https://github.com/norma-core/norma-core/blob/main/hardware/elrobot/manual-follower.pdf) (parts list and steps 65–66). Three mount variants and “any UVC camera” from the ElRobot [README](https://github.com/norma-core/norma-core/blob/main/hardware/elrobot/README.md). Hub and table/scene camera from that README BOM plus the [cell parts list](../../../bom/BOM.md).
+Credit: printed-part names and fastener counts from the ElRobot [follower assembly manual](https://github.com/norma-core/norma-core/blob/main/hardware/elrobot/manual-follower.pdf) (parts list and steps 65–66). Purchased cameras and hub from the ElRobot [README BOM](https://github.com/norma-core/norma-core/blob/main/hardware/elrobot/README.md) and the [cell parts list](../../../bom/BOM.md).
 
-Print defaults (ElRobot README): **PLA**, **0.4 mm nozzle**, **0.2 mm layers**. Combined STLs are exported in the **optimal printing orientation**. Infill is **TODO**. The `.3mf` plates include all three mounts — “choose the one that fits your camera and delete the others before slicing.”
+Print defaults (ElRobot README): **PLA**, **0.4 mm nozzle**, **0.2 mm layers**. Combined STLs are exported in the **optimal printing orientation**. Infill is **TODO**. Which individual part sits in which combined STL / `.3mf` is **TODO**.
 
-Copies in this repo: [`cad/elrobot/stl/`](../../../cad/elrobot/stl/) (unmodified, Apache-2.0). Scene-camera mount file: **TODO** (not in ElRobot, not in the cell parts list).
+Unmodified ElRobot copies in this repo: [`cad/elrobot/`](../../../cad/elrobot/). Scene printed part: **TODO** (not in ElRobot, not in the cell parts list).
 
 Arm, rail, and controller printed parts: [arm](../arm/parts.md), [rail](../rail/parts.md), [controller](../controller/parts.md).
 
@@ -12,18 +12,10 @@ Arm, rail, and controller printed parts: [arm](../arm/parts.md), [rail](../rail/
 
 | Qty | Part (manual letter) | Material | Infill | Orientation |
 |---|---|---|---|---|
-| 1 | Camera Mount (S) — pick **one** variant below | PLA | TODO | TODO (use upstream combined STL / `.3mf` orientation) |
-| 1 | Scene-camera mount | TODO | TODO | TODO |
+| 1 | Camera Mount (S) | PLA | TODO | TODO (use upstream combined STL orientation). ElRobot ships 27 mm / 34 mm / regular files; pick the one that fits the camera |
+| 1 | Scene printed part | TODO | TODO | TODO |
 
-Wrist-mount variants (ElRobot README “Camera Mounts”):
-
-| Camera (example) | Mount file |
-|---|---|
-| Innomaker U20CAM-1080P (27 mm holes) | [`CameraMount_square_27mm.stl`](../../../cad/elrobot/stl/CameraMount_square_27mm.stl) |
-| Innomaker Day&Night Vision (34 mm holes) | [`CameraMount_square_34mm.stl`](../../../cad/elrobot/stl/CameraMount_square_34mm.stl) |
-| Generic webcam | [`CameraMount_regular.stl`](../../../cad/elrobot/stl/CameraMount_regular.stl) |
-
-The cell parts list uses the 27 mm square mount with the Innomaker U20CAM.
+How the scene camera is fixed to the bench: **TODO**.
 
 ## Purchased
 
@@ -33,7 +25,5 @@ The cell parts list uses the 27 mm square mount with the Innomaker U20CAM.
 | 1 | Scene / table camera | ElRobot BOM: “Table Camera” (example Logitech). Cell parts list: any 1080p UVC USB webcam (examples: Arducam 1080p or Logitech C920) |
 | 1 | Powered USB hub | Externally powered. ElRobot: “An externally powered hub is **required primarily for the cameras**.” Cell parts list: any externally powered USB 3 hub. Port count and wattage: **TODO** |
 | 2+ | USB data cables | Camera and hub links. ElRobot: rated for **data transfer**; USB-C to USB-A for hub connections as your ports require |
-| 4 | Self-tapping screw M2×6 | Camera to mount (manual step 65) |
-| 2 | Screw M3×8 | Mount to gripper base (manual step 66) |
-
-How the scene camera is fixed to the bench (clamp, printed mount, or otherwise): **TODO**.
+| 4 | Self-tapping screw M2×6 | Camera to part S (manual step 65) |
+| 2 | Screw M3×8 | Part S to gripper base (manual step 66) |

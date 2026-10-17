@@ -9,7 +9,7 @@ Each cell component has the same pages: parts, wiring and IDs, assembly, and che
 | [Arm](arm/) | ElRobot follower: seven joints plus a gripper | [ElRobot / NormaCore](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot) (Apache-2.0) |
 | [Rail](rail/) | leslider-style 2020 rack rail, plus the ElRobot adapter | [leslider / Pham Tuan Binh](https://github.com/pham-tuan-binh/leslider) (Apache-2.0) |
 | [Controller](controller/) | Raspberry Pi, servo bus adapter, power supplies, stop | Raspberry Pi docs; ElRobot power notes |
-| [Cameras](cameras/) | Wrist camera, scene camera, mounts | ElRobot camera mounts and BOM |
+| [Cameras](cameras/) | Wrist camera, scene camera | ElRobot and the cell parts list |
 
 ## Pages (same set on every component)
 
