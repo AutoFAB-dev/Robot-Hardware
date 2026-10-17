@@ -13,5 +13,5 @@ Closes #
 **Images:** photos or renders, if any. No faces, serial numbers, network names or codes.
 
 - [ ] Licence and attribution are correct for any added files
-- [ ] R&D content is under `docs/rnd/` or `cad/rnd/` with the banner
 - [ ] `docs/safety.md` is updated if power, motion or the e-stop changed
+- [ ] This PR was invited (unsolicited PRs are not accepted yet)

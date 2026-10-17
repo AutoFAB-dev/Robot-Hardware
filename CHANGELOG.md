@@ -7,5 +7,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 ## [Unreleased]
 
 ### Added
-- Initial public hardware release: an ElRobot arm on a leslider-style rail, wrist and scene cameras, a Raspberry Pi controller, a user setup guide, a priced BOM, CAD files and servo/firmware notes, and the powered monorail marked R&D under `docs/rnd` and `cad/rnd`.
+- Initial public hardware release: an ElRobot arm on a leslider-style rail, wrist and scene cameras, a Raspberry Pi controller, a user setup guide, a priced BOM, CAD files, and hardware-level servo notes.
 - Public-repo essentials: code of conduct, NOTICE, CODEOWNERS, governance, this changelog, trademarks, a DIY disclaimer, and Dependabot for GitHub Actions.
+
+### Changed
+- Describe AutoFAB as a managed service (AI agents plus a human supervision service). AutoFAB software is closed source; only the hardware is open.
+- Printers: Klipper and Bambu integrations; has run on Voron (Klipper), Creality K2 Plus with CFS, Creality K1, Bambu Lab X1C, Bambu Lab H2S and FlashForge Adventurer.
+- Issues and build reports welcome; pull requests by invitation for now.
+- Customer-facing controller setup only (flash the provided image, power-up, network join, claim at app.autofab.net).
+
+### Removed
+- In-progress drafts that were not part of the kit.
+- Closed-software internals from servo notes and setup docs.

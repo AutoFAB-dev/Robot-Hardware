@@ -13,7 +13,7 @@ while IFS=: read -r f _ p; do
 done < <(rg -n -o '\]\(([^)h#][^)]*)\)' -r '$1' --glob '*.md' . || true)
 
 echo "== public-safety scan (secrets, internal terms)"
-pattern='(api[_-]?key|secret[_-]?key|BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|xox[baprs]-|password\s*[:=]\s*\S|token\s*[:=]\s*\S|\.workers\.dev|relay\.|fabrelay|supabase|tailscale|localhost:|192\.168\.|10\.42\.|fully autonomous|zeroshot|oneshot|linear\.app)'
+pattern='(api[_-]?key|secret[_-]?key|BEGIN [A-Z ]*PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|xox[baprs]-|password\s*[:=]\s*\S|token\s*[:=]\s*\S|workers\.dev|relay|fabrelay|supabase|tailscale|localhost:|192\.168\.|10\.42\.|fully autonomous|zeroshot|oneshot|linear\.app|human-supervised)'
 if rg -n -i -P "$pattern" --glob '!LICENSES/**' --glob '!cad/elrobot/LICENSE' --glob '!*.stl' --glob '!*.3mf' --glob '!tools/check.sh' .; then
   echo "FAIL: public-safety scan found matches (fix them, or explain them in the PR)"; fail=1
 fi

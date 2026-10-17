@@ -1,5 +1,5 @@
-# Firmware and servo configuration
-The cell software runs on the Raspberry Pi (see [docs/software-setup.md](../docs/software-setup.md)); there's no separate microcontroller firmware. This page covers the servo settings the hardware depends on.
+# Servo IDs and hardware notes
+AutoFAB software is closed source. This page is hardware only: which servo is which, how they are wired, and how they are powered. Controller setup: [docs/software-setup.md](../docs/software-setup.md).
 
 ## Servo IDs
 | ID | Role |
@@ -8,16 +8,14 @@ The cell software runs on the Raspberry Pi (see [docs/software-setup.md](../docs
 | 8 | gripper |
 | 9 | rail drive |
 
-Set IDs one servo at a time on the bus, with Feetech's setup tool or the ID tool in your servo library. **TODO:** recommended tool and exact steps.
+Set IDs one servo at a time on the bus, with Feetech's setup tool. **TODO:** recommended tool and exact steps. Label each servo before you install it.
 
-## Rail servo
-The rail servo setup follows leslider's recipe:
-- **Extended multi-turn position mode:** `Operating_Mode` (reg 33) = 0, with `Min_Position_Limit` = 0 and `Max_Position_Limit` = 30719.
-- **Position values are 15-bit sign-magnitude.** Keep the whole stroke positive, so power-cycle with the carriage at the **low end** of travel.
-- **The multi-turn count is lost on power loss.** Always re-home the rail after a power cut or brownout.
-- **Speed ceiling:** the cell software sets the motion profile itself.
-- **Torque limit:** reduced, so a jammed carriage can't brown out the supply.
-- **Gearing:** one pinion revolution is 4096 ticks, about 126 mm of travel. Measure your own rail travel during calibration.
+## Wiring and power
+- Servos take **12 V** from the servo driver only. The driver's USB link to the Pi is data, not power.
+- Daisy-chain the rail servo (ID 9) after the gripper. See [docs/wiring.md](../docs/wiring.md).
+- Keep the Pi on its own 27 W USB-C supply.
+- Put the physical stop on the 12 V lead (or a switched strip you can reach).
 
-## R&D
-The powered monorail drive spec is R&D, not part of the current kit: [docs/rnd/powered-monorail/firmware-safety-limits.md](../docs/rnd/powered-monorail/firmware-safety-limits.md).
+## Rail drive
+- After a power cut, the rail drive loses its place. Power-cycle with the carriage at the **low end** of travel, then re-home in the app ([docs/calibration.md](../docs/calibration.md)).
+- A loose pinion/rack mesh skips teeth. Check the mesh by hand with power off.

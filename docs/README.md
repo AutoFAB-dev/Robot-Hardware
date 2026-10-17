@@ -7,5 +7,3 @@
 6. [Calibration](calibration.md)
 7. [Safety](safety.md)
 8. [Troubleshooting](troubleshooting.md)
-
-R&D (not part of the current kit): [powered monorail](rnd/powered-monorail/README.md)
