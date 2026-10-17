@@ -146,7 +146,7 @@ There is no `CONTRIBUTING.md` yet. For this repo:
 - Before a push, run [`tools/check.sh`](tools/check.sh) (relative links, public-safety scan, large files).
 - Do not invent print settings, quantities, or servo IDs. Cite ElRobot or leslider, or mark **TODO**.
 
-**Service and setup help** (access keys, managed production): [autofab.net](https://autofab.net) · [`docs/getting-help.md`](docs/getting-help.md).
+**Service and setup help** (access keys, managed production): [info@autofab.net](mailto:info@autofab.net) · [`docs/getting-help.md`](docs/getting-help.md).
 
 **Security:** report privately via GitHub’s Security tab. See [`SECURITY.md`](SECURITY.md).
 

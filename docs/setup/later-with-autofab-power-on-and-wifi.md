@@ -11,7 +11,7 @@ Bring the small computer online and add the cell to your AutoFAB account. AutoFA
 > **An updated setup flow is coming.** Use the steps below for now. See [Coming soon](#coming-soon).
 
 ## If the microSD card is blank
-1. Get the provided AutoFAB cell image. **TODO:** public download (ask via [autofab.net](https://autofab.net) for now).
+1. Get the provided AutoFAB cell image. **TODO:** public download (ask via [info@autofab.net](mailto:info@autofab.net) for now).
 2. Write it with [Raspberry Pi Imager](https://www.raspberrypi.com/software/) — choose "Use custom".
 3. Use a fresh flash for this cell. Don't copy a card from a cell that has already been turned on.
 
@@ -39,7 +39,7 @@ If the shop Wi-Fi details were wrong, `AutoFAB-XXXX` comes back. Join that same 
 The cell needs a normal outbound internet connection (HTTPS) and must be on the same network as the printers.
 
 ## Coming soon
-Placeholder: an updated setup flow will replace some of these steps (image download, DIY setup password, and which checks you do yourself). Until then, follow this page and [autofab.net](https://autofab.net) if you need the image or a password.
+Placeholder: an updated setup flow will replace some of these steps (image download, DIY setup password, and which checks you do yourself). Until then, follow this page and email [info@autofab.net](mailto:info@autofab.net) if you need a password.
 
 **Back:** [4. Wiring, power, stop and cameras](04-wiring-power-stop-cameras.md)
 **Next:** [6. Link your printer](06-link-your-printer.md)

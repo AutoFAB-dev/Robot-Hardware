@@ -8,6 +8,7 @@ fail=0
 echo "== relative links"
 while IFS=: read -r f _ p; do
   t="${p%%#*}"; [ -z "$t" ] && continue
+  case "$t" in mailto:*) continue ;; esac
   [ -e "$(dirname "$f")/$t" ] || { echo "BROKEN: $f -> $p"; fail=1; }
 done < <(rg -n -o '\]\(([^)h#][^)]*)\)' -r '$1' --glob '*.md' . || true)
 

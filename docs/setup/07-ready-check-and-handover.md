@@ -23,7 +23,7 @@ If a camera goes black, stop using that view and tell AutoFAB.
 Arm calibration, rail home, bed height, fiducials and the first managed job are finished **with AutoFAB**.
 
 1. Leave the cell as it is (Online, cameras plugged in, stop ready, 12 V off).
-2. Tell AutoFAB you have finished this guide. Use [Getting help](../getting-help.md) or [autofab.net](https://autofab.net).
+2. Tell AutoFAB you have finished this guide. Use [Getting help](../getting-help.md) or email [info@autofab.net](mailto:info@autofab.net).
 3. Stay nearby for the first session. Someone must be able to hit the stop whenever the arm has power.
 
 **Back:** [6. Link your printer](06-link-your-printer.md)

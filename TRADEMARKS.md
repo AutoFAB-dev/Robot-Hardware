@@ -3,4 +3,4 @@ The **AutoFAB** name and logo are not licensed by the hardware or documentation 
 
 Community builds and forks must not imply that AutoFAB made, tested or endorses them. Saying a build is **compatible with AutoFAB** is allowed.
 
-Questions about the name or logo: [autofab.net](https://autofab.net).
+Questions about the name or logo: [info@autofab.net](mailto:info@autofab.net).
