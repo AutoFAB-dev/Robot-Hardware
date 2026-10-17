@@ -3,6 +3,6 @@ contact_links:
   - name: Security vulnerability
     url: https://github.com/AutoFAB-dev/Robot-Hardware/security/advisories/new
     about: Report security issues privately (see SECURITY.md)
-  - name: Done-for-you setup
-    url: https://autofab.net
-    about: The plug-and-play AutoFAB setup
+  - name: AutoFAB service
+    url: mailto:info@autofab.net
+    about: Email for the managed service and setup help

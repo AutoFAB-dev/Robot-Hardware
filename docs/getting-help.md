@@ -5,7 +5,7 @@ This repo is the self-service guide for putting the cell next to your printers a
 **Safety:** If the stop fails or the arm moves when it should not, unplug 12 V and [report it privately](../SECURITY.md). That is a safety issue, not a public bug thread.
 
 ## AutoFAB (the service)
-For the managed service, the cell image, or a setup password, start at [autofab.net](https://autofab.net).
+For the managed service or a setup password, email [info@autofab.net](mailto:info@autofab.net).
 
 ## This hardware guide
 - Walk the numbered path from [Set up your cell](setup/01-whats-in-the-box.md).
