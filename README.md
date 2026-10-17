@@ -28,7 +28,10 @@ Background only — not the customer path.
 | Topic | Where |
 |---|---|
 | Safety | [docs/reference/safety.md](docs/reference/safety.md) |
-| Arm parts, IDs, wiring, assembly | [docs/reference/arm/](docs/reference/arm/) |
+| Arm | [docs/reference/arm/](docs/reference/arm/) |
+| Rail | [docs/reference/rail/](docs/reference/rail/) |
+| Controller | [docs/reference/controller/](docs/reference/controller/) |
+| Cameras | [docs/reference/cameras/](docs/reference/cameras/) |
 | Cell parts list | [bom/BOM.md](bom/BOM.md) |
 | CAD files | [cad/](cad/) |
 | Photos (TODO) | [images/](images/) |

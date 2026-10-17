@@ -1,2 +1,2 @@
 # Servo notes
-Hardware-level servo IDs and wiring live in [docs/reference/arm/](../docs/reference/arm/). Customer path: [step 4](../docs/setup/04-wiring-power-stop-cameras.md).
+Hardware-level IDs and wiring live with each component: [arm](../docs/reference/arm/), [rail](../docs/reference/rail/), [controller](../docs/reference/controller/), [cameras](../docs/reference/cameras/). Customer path: [step 4](../docs/setup/04-wiring-power-stop-cameras.md).

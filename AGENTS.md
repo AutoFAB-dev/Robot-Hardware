@@ -7,8 +7,8 @@ Rules for agents maintaining this public hardware repo.
 ```
 docs/setup/       customer path (01–07)
 docs/troubleshooting.md, docs/getting-help.md
-docs/reference/   safety and arm reference
-docs/reference/arm/  ElRobot/leslider parts, IDs, wiring, assembly
+docs/reference/   safety, plus equal pages for arm, rail, controller, cameras
+docs/reference/<component>/  parts, wiring, IDs, assembly, checks (same set on each)
 bom/              cell parts list (quantities and links, no prices)
 cad/              printable files; cad/elrobot/ keeps its own licence
 tools/check.sh    run before every push

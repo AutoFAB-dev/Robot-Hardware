@@ -19,6 +19,6 @@ Use this if a setup step does not match what you see. Still stuck? [Getting help
 | Printer shows unreachable | Put the printer and the cell on the same network. First confirm the printer's own app can see it. |
 | Carriage clicks or jumps | Tighten the pinion on the rack. Check the rack pieces sit in the slot. |
 | Wrist-camera mount cracked | Reprint it. File: `cad/elrobot/stl/CameraMount_square_27mm.stl`. |
-| A joint does not move later (when AutoFAB asks you to power 12 V) | Check [servo IDs](reference/arm/servo-ids.md), reseat the bus cable, confirm 12 V is on. |
+| A joint does not move later (when AutoFAB asks you to power 12 V) | Check [arm IDs](reference/arm/ids.md) and [rail IDs](reference/rail/ids.md), reseat the bus cable, confirm 12 V is on. |
 
 Don't put passwords, claim codes, or tokens in photos or issues.
