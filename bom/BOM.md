@@ -28,6 +28,7 @@ Quantities for one AutoFAB cell. Links are examples; any equivalent part works u
 | 1 | Raspberry Pi 5, 8 GB (Pi 4 also works) | [CanaKit](https://www.canakit.com/raspberry-pi-5-8gb.html) |
 | 1 | Raspberry Pi 27 W USB-C power supply | [Adafruit 5814](https://www.adafruit.com/product/5814) |
 | 1 | microSD card, 16 GB+ (64 GB A2 recommended) | [Raspberry Pi 64 GB](https://www.pishop.us/product/raspberry-pi-sd-card-64gb/) |
+| 1 set | Optional driver enclosure (Waveshare or Seeed pair) | [hardware/controller/](../hardware/controller/) |
 | 1 | Powered USB hub (cameras need external power) | any externally powered USB 3 hub |
 | 1 | Wrist camera: Innomaker U20CAM-1080P (any UVC camera works) | [Amazon B0CNCSFQC1](https://www.amazon.com/dp/B0CNCSFQC1) |
 | 1 | Wrist-camera mount, printed + 4× M2×6 self-tapping + 2× M3×8 | [`CameraMount_square_27mm.stl`](../hardware/cameras/STL/gripper_camera_mounts/CameraMount_square_27mm.stl) · [cameras parts](../docs/reference/cameras/parts.md) |
