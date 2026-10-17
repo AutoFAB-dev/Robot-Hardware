@@ -1,9 +1,17 @@
-# Setup guide
-1. [Bill of materials](../bom/BOM.md)
-2. [Printed parts](printed-parts.md)
-3. [Assembly](assembly.md)
-4. [Wiring and power](wiring.md)
-5. [Controller setup and connecting to AutoFAB](software-setup.md)
-6. [Calibration](calibration.md)
-7. [Safety](safety.md)
-8. [Troubleshooting](troubleshooting.md)
+# Docs
+
+## Set up your cell
+Follow these steps in order. That is the main job of this repository.
+
+1. [What's in the box](setup/01-whats-in-the-box.md)
+2. [Unbox and check for damage](setup/02-unboxing-and-damage-checks.md)
+3. [Mount the arm and rail](setup/03-mounting-arm-and-rail.md)
+4. [Wiring, power, stop and cameras](setup/04-wiring-power-stop-cameras.md)
+5. [Power on and Wi-Fi](setup/05-power-on-and-wifi.md)
+6. [Link your printer](setup/06-link-your-printer.md)
+7. [Ready check and handover](setup/07-ready-check-and-handover.md)
+
+If something goes wrong: [Troubleshooting](troubleshooting.md) · [Getting help](getting-help.md)
+
+## Reference
+BOM, printed parts, CAD, servo notes, safety, licences and contributing: [reference/](reference/).

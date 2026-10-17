@@ -5,12 +5,14 @@ Rules for people and AI agents working in this repo. Contributors follow the sam
 
 ## 1. Layout
 ```
-docs/       user setup guide (assembly, wiring, software setup, calibration, safety, troubleshooting)
-bom/        bill of materials
-cad/        printable/CAD files; third-party files keep their own licence (cad/elrobot/)
-firmware/   hardware-level servo IDs, wiring and power notes
-images/     photos and diagrams
-tools/      repo checks (tools/check.sh)
+docs/setup/       customer path (01–07): unbox, mount, wire, Wi-Fi, link printer, handover
+docs/troubleshooting.md, docs/getting-help.md
+docs/reference/   BOM links, printed parts, DIY build, servos, safety, licences
+bom/              priced bill of materials
+cad/              printable/CAD files; third-party files keep their own licence (cad/elrobot/)
+firmware/         pointer to hardware-level servo notes
+images/           photos and diagrams
+tools/            repo checks (tools/check.sh)
 ```
 **This repository is public.** Everything you commit is visible to anyone.
 
@@ -43,7 +45,7 @@ For CAD changes, also: open/slice the file and state the slicer, settings and pr
 - **Source files:** for new CAD, commit editable source (STEP, or OpenSCAD/FreeCAD) alongside STL/3MF. Keep files under 10 MB.
 - **BOM:** every line has qty, part, an example link and an approximate cost (or TODO). Prices are indicative and dated.
 - **Wording:** AutoFAB is a managed service: our systems manage production on your machines, including AutoFAB's AI agents plus a human supervision service. Never claim the cell runs without that service. AutoFAB software is closed source; only the hardware is open.
-- **Safety:** any change that affects power, motion, the e-stop or pinch points updates [docs/safety.md](docs/safety.md).
+- **Safety:** any change that affects power, motion, the e-stop or pinch points updates [docs/reference/safety.md](docs/reference/safety.md) and the safety note on each setup step.
 
 ## 6. Never
 - Commit secrets, credentials, tokens, setup-card passwords, claim codes, `.env` files, or photos showing them.

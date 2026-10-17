@@ -13,5 +13,5 @@ Closes #
 **Images:** photos or renders, if any. No faces, serial numbers, network names or codes.
 
 - [ ] Licence and attribution are correct for any added files
-- [ ] `docs/safety.md` is updated if power, motion or the e-stop changed
+- [ ] `docs/reference/safety.md` and the step safety notes are updated if power, motion or the e-stop changed
 - [ ] This PR was invited (unsolicited PRs are not accepted yet)

@@ -4,56 +4,47 @@
 [![Docs: CC-BY-4.0](https://img.shields.io/badge/docs-CC--BY--4.0-lightgrey.svg)](LICENSE)
 [![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 
-Open hardware for the **AutoFAB cell**: a low-cost robot arm on a linear rail that takes finished parts off your 3D printers.
+This repository is a **self-service guide** so you can put an AutoFAB cell next to your printers and hand it over. AutoFAB is **a managed service: our systems manage production on your machines**. That includes AutoFAB's AI agents plus a human supervision service. AutoFAB software is closed source; only this hardware is open.
 
-AutoFAB is **a managed service: our systems manage production on your machines**. That includes AutoFAB's AI agents plus a human supervision service. AutoFAB software is closed source; only this hardware is open.
+> For the plug-and-play, done-for-you setup, go to **[autofab.net](https://autofab.net)**.
 
-> This repo is the open hardware for makers who want to build their own cell. For the plug-and-play, done-for-you setup, go to **[autofab.net](https://autofab.net)**.
+## Set up your cell
+Do these in order. Each step has a safety note and a photo placeholder.
 
-## Who this is for
-- Makers and print farms who are comfortable 3D-printing parts, assembling a small servo arm and flashing a Raspberry Pi.
-- Anyone who wants to see how the AutoFAB cell hardware is put together.
+1. [What's in the box](docs/setup/01-whats-in-the-box.md)
+2. [Unbox and check for damage](docs/setup/02-unboxing-and-damage-checks.md)
+3. [Mount the arm and rail](docs/setup/03-mounting-arm-and-rail.md)
+4. [Wiring, power, stop and cameras](docs/setup/04-wiring-power-stop-cameras.md)
+5. [Power on and Wi-Fi](docs/setup/05-power-on-and-wifi.md)
+6. [Link your printer](docs/setup/06-link-your-printer.md)
+7. [Ready check and handover](docs/setup/07-ready-check-and-handover.md)
 
-Issues and build reports are welcome. Pull requests are by invitation for now: [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## What you build
-| Part | What it is |
-|---|---|
-| Arm | ElRobot follower: 7 joints plus a gripper, Feetech STS3215 12 V serial bus servos |
-| Rail | leslider-style 2020 V-slot rail with a printed rack, driven by one more STS3215, so one arm can serve several printers |
-| Cameras | a wrist camera on the gripper and a fixed scene camera on the printer bed |
-| Controller | Raspberry Pi 5 (Pi 4 also boots) running the closed AutoFAB cell software |
+Something not working? [Troubleshooting](docs/troubleshooting.md). Need a person? [Getting help](docs/getting-help.md).
 
 **Printers:** AutoFAB works with almost any 3D printer through its Klipper and Bambu integrations. It has run on a Voron (Klipper), Creality K2 Plus with CFS, Creality K1, Bambu Lab X1C, Bambu Lab H2S and FlashForge Adventurer.
 
-## Quick start
-1. Buy the parts: [bom/BOM.md](bom/BOM.md)
-2. Print the parts: [docs/printed-parts.md](docs/printed-parts.md)
-3. Assemble the arm and rail: [docs/assembly.md](docs/assembly.md)
-4. Wire it up: [docs/wiring.md](docs/wiring.md)
-5. Set up the controller and connect it to AutoFAB: [docs/software-setup.md](docs/software-setup.md)
-6. Calibrate: [docs/calibration.md](docs/calibration.md)
-7. Read the safety rules **before you power the arm**: [docs/safety.md](docs/safety.md)
+## Reference
+Use these if you are buying parts, printing, or reading licences. They are not the customer path.
 
-Something not working? See [docs/troubleshooting.md](docs/troubleshooting.md).
-
-## Repository layout
-| Folder | Contents |
+| Topic | Where |
 |---|---|
-| [`docs/`](docs/) | Setup guide (the steps above) |
-| [`bom/`](bom/) | Bill of materials |
-| [`cad/`](cad/) | Printable files (third-party files keep their own licence) |
-| [`firmware/`](firmware/) | Hardware-level servo IDs, wiring and power notes |
-| [`images/`](images/) | Photos and diagrams (TODO) |
-| [`tools/`](tools/) | Repo checks (`tools/check.sh`) |
+| Parts and prices | [bom/BOM.md](bom/BOM.md) |
+| Printed parts | [docs/reference/printed-parts.md](docs/reference/printed-parts.md) |
+| Build the arm and rail | [docs/reference/build-the-arm-and-rail.md](docs/reference/build-the-arm-and-rail.md) |
+| Servo IDs and power | [docs/reference/servos.md](docs/reference/servos.md) |
+| CAD files | [cad/](cad/) |
+| Safety | [docs/reference/safety.md](docs/reference/safety.md) |
+| Photos (TODO) | [images/](images/) |
+| Licences | [LICENSE](LICENSE), [NOTICE](NOTICE), [TRADEMARKS.md](TRADEMARKS.md) |
+| Changelog | [CHANGELOG.md](CHANGELOG.md) |
+| Issues and contributing | [CONTRIBUTING.md](CONTRIBUTING.md), [GOVERNANCE.md](GOVERNANCE.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [AGENTS.md](AGENTS.md) |
+| Security | [SECURITY.md](SECURITY.md) |
+| All reference | [docs/reference/](docs/reference/) |
 
-## Built on
-The AutoFAB cell combines two open-source projects. Thank you to their authors.
-- **[ElRobot](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot)** by NormaCore: the arm (Apache-2.0).
-- **[leslider](https://github.com/pham-tuan-binh/leslider)** by Pham Tuan Binh: the linear rail design and its STS3215 servo recipe (Apache-2.0). leslider was designed for the SO-101 arm; we use its rail with ElRobot.
+The cell is an ElRobot arm on a leslider-style rail, with a wrist camera, a scene camera, and a Raspberry Pi. Thank you to [ElRobot / NormaCore](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot) and [leslider / Pham Tuan Binh](https://github.com/pham-tuan-binh/leslider).
 
 ## Disclaimer
-This is DIY hardware. You build, power and run it **at your own risk**. The licences give no warranty beyond what they themselves state (see [LICENSE](LICENSE)). AutoFAB is a managed service: our systems manage production on your machines, including AutoFAB's AI agents plus a human supervision service. Someone must be present and able to hit the physical stop whenever the arm has power. Read [docs/safety.md](docs/safety.md) before you power the arm.
+This is DIY hardware. You build, power and run it **at your own risk**. The licences give no warranty beyond what they themselves state (see [LICENSE](LICENSE)). AutoFAB is a managed service: our systems manage production on your machines, including AutoFAB's AI agents plus a human supervision service. Someone must be present and able to hit the physical stop whenever the arm has power. Read [docs/reference/safety.md](docs/reference/safety.md) before you power the arm.
 
 ## License
 - AutoFAB-authored hardware: **CERN-OHL-P-2.0**
@@ -61,6 +52,4 @@ This is DIY hardware. You build, power and run it **at your own risk**. The lice
 - Code: **Apache-2.0**
 - Third-party files keep their original licences.
 
-See [LICENSE](LICENSE) and [NOTICE](NOTICE). The AutoFAB name and logo are not licensed: [TRADEMARKS.md](TRADEMARKS.md). Changes: [CHANGELOG.md](CHANGELOG.md).
-
-Issues and build reports: [CONTRIBUTING.md](CONTRIBUTING.md), [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md), [GOVERNANCE.md](GOVERNANCE.md), [AGENTS.md](AGENTS.md). Security: [SECURITY.md](SECURITY.md).
+See [LICENSE](LICENSE) and [NOTICE](NOTICE). Issues and build reports are welcome; pull requests are by invitation for now.

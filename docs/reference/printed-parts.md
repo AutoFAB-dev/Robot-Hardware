@@ -1,9 +1,16 @@
 # Printed parts
+
+Use this if you are printing the cell yourself. Customers unboxing a built cell can skip it.
+
+**TODO image:** printed rail legs, pinion, rack segments, and the wrist-camera mount
+
 ## Arm: ElRobot follower
 Download the full STL/STEP/3MF set and the assembly manual from upstream: https://github.com/norma-core/norma-core/tree/main/hardware/elrobot
+
 Upstream settings: PLA, 0.4 mm nozzle, 0.2 mm layers, 15% infill, tree supports.
 
-**Wrist-camera mount:** [`cad/elrobot/stl/CameraMount_square_27mm.stl`](../cad/elrobot/stl/CameraMount_square_27mm.stl) (for the U20CAM). `_34mm` and `_regular` are alternatives, and `cad/elrobot/3mf/gripper_camera_mounts_basic.3mf` has all three.
+**Wrist-camera mount:** [`cad/elrobot/stl/CameraMount_square_27mm.stl`](../../cad/elrobot/stl/CameraMount_square_27mm.stl) (for the U20CAM). `_34mm` and `_regular` are alternatives, and `cad/elrobot/3mf/gripper_camera_mounts_basic.3mf` has all three.
+
 Print it with **4 walls, or in PETG**, and print a spare. It's the most exposed part and can break in transit.
 
 ## Rail: leslider
