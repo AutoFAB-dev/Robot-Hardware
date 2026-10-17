@@ -1,5 +1,7 @@
 # 5. Power on and Wi-Fi
 
+This page covers a later step done with AutoFAB; it is not part of first-day onboarding.
+
 Bring the small computer online and add the cell to your AutoFAB account. AutoFAB software is closed source; this page is only what you do with the box and what you see in the app.
 
 **Safety:** Support the arm. Leave the 12 V supply off. Claiming the cell must **never** move a motor. Someone must stay able to hit the stop before you ever switch the arm on.

@@ -26,4 +26,4 @@ If you have Ethernet, plug the Pi into the **same network as your printers**. Gu
 Route cables so the arm and carriage can move their full range. Leave a loop along the rail. **TODO:** recommended cable clips.
 
 **Back:** [3. Mount the arm and rail](03-mounting-arm-and-rail.md)
-**Next:** [5. Power on and Wi-Fi](05-power-on-and-wifi.md)
+**Next:** [5. Flash, install, remote access](05-flash-install-remote-access.md)

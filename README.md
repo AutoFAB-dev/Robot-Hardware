@@ -1,53 +1,39 @@
 # AutoFAB Robot Hardware
 
-[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/hardware-CERN--OHL--P--2.0-blue.svg)](LICENSE)
-[![Docs: CC-BY-4.0](https://img.shields.io/badge/docs-CC--BY--4.0-lightgrey.svg)](LICENSE)
+Open hardware for the AutoFAB cell: an arm on a rail that tends your 3D printers. AutoFAB is a
+managed service: our systems manage production on your machines. The hardware design here is open
+source; the AutoFAB software that runs the cell is closed source and is installed by our team.
 
-This repository is a **self-service guide** so you can put an AutoFAB cell next to your printers and hand it over. AutoFAB is **a managed service: our systems manage production on your machines**. AutoFAB software is closed source; only this hardware is open.
+**Start here if you have the hardware.** Follow the steps in order; each takes you to the next.
 
-> For the plug-and-play, done-for-you setup, go to **[autofab.net](https://autofab.net)**.
+## Onboard your cell
 
-## Set up your cell
-Do these in order. Each step has a safety note and a photo placeholder.
+| # | Step | Page | Time |
+|---|---|---|---|
+| 0 | **What you need**: the parts list, your network and printer | [Hardware configuration](bom/BOM.md) | 10 min |
+| 1 | What's in the box | [setup/01](docs/setup/01-whats-in-the-box.md) | 10 min |
+| 2 | Unbox and check for damage | [setup/02](docs/setup/02-unboxing-and-damage-checks.md) | 10 min |
+| 3 | **Assemble**: mount the arm and rail | [setup/03](docs/setup/03-mounting-arm-and-rail.md) | 20 min |
+| 4 | Wire power (off), stop and cameras | [setup/04](docs/setup/04-wiring-power-stop-cameras.md) | 15 min |
+| 5 | **Flash, install, remote access** | [setup/05](docs/setup/05-flash-install-remote-access.md) · script: [`scripts/install.sh`](https://raw.githubusercontent.com/AutoFAB-dev/Robot-Hardware/docs/initial-hardware-release/scripts/install.sh) <!-- TODO: switch back to main after PR #1 merges --> | 45 min |
+| ✓ | **Done for now.** AutoFAB finishes the software setup remotely and schedules the arm bring-up with you | — | — |
 
-1. [What's in the box](docs/setup/01-whats-in-the-box.md)
-2. [Unbox and check for damage](docs/setup/02-unboxing-and-damage-checks.md)
-3. [Mount the arm and rail](docs/setup/03-mounting-arm-and-rail.md)
-4. [Wiring, power, stop and cameras](docs/setup/04-wiring-power-stop-cameras.md)
-5. [Power on and Wi-Fi](docs/setup/05-power-on-and-wifi.md)
-6. [Link your printer](docs/setup/06-link-your-printer.md)
-7. [Ready check and handover](docs/setup/07-ready-check-and-handover.md)
+Later, with AutoFAB: [6. Link your printer](docs/setup/06-link-your-printer.md) ·
+[7. Ready check and handover](docs/setup/07-ready-check-and-handover.md).
 
-Something not working? [Troubleshooting](docs/troubleshooting.md). Need a person? [Getting help](docs/getting-help.md).
+Building the arm yourself? Part-by-part assembly, wiring and checks are in
+[docs/reference/](docs/reference/README.md). Safety: [docs/reference/safety.md](docs/reference/safety.md).
+Help: [docs/getting-help.md](docs/getting-help.md) · [troubleshooting](docs/troubleshooting.md).
 
-**Printers:** AutoFAB works with almost any 3D printer through its Klipper and Bambu integrations. It has run on a Voron (Klipper), Creality K2 Plus with CFS, Creality K1, Bambu Lab X1C, Bambu Lab H2S and FlashForge Adventurer.
+## What's in this repository
 
-## Reference
-Background only — not the customer path.
-
-| Topic | Where |
+| Folder | Contents |
 |---|---|
-| Safety | [docs/reference/safety.md](docs/reference/safety.md) |
-| Arm | [docs/reference/arm/](docs/reference/arm/) |
-| Rail | [docs/reference/rail/](docs/reference/rail/) |
-| Controller | [docs/reference/controller/](docs/reference/controller/) |
-| Cameras | [docs/reference/cameras/](docs/reference/cameras/) |
-| Cell parts list | [bom/BOM.md](bom/BOM.md) |
-| Printable files | [hardware/](hardware/) |
-| CAD files | [cad/](cad/) |
-| Photos (TODO) | [images/](images/) |
-| Licences | [LICENSE](LICENSE), [NOTICE](NOTICE), [TRADEMARKS.md](TRADEMARKS.md) |
-| Security | [SECURITY.md](SECURITY.md) |
-| All reference | [docs/reference/](docs/reference/) |
+| [`bom/`](bom/) | Hardware configuration and parts list with buy links |
+| [`docs/setup/`](docs/setup/) | The onboarding steps above |
+| [`docs/reference/`](docs/reference/) | Arm, rail, controller and camera assembly, wiring, IDs, checks |
+| [`scripts/`](scripts/) | `install.sh`: controller setup through to remote support access |
+| [`hardware/`](hardware/) · [`cad/`](cad/) | STL, STEP and print plates |
+| [`firmware/`](firmware/) | Servo and driver notes |
 
-The cell is an ElRobot arm on a leslider-style rail, with a wrist camera, a scene camera, and a Raspberry Pi. Thank you to [ElRobot / NormaCore](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot) and [leslider / Pham Tuan Binh](https://github.com/pham-tuan-binh/leslider).
-
-## Disclaimer
-This hardware is supplied by AutoFAB and is meant to be run as part of AutoFAB's managed service: our systems manage production on your machines. Follow the [safety steps](docs/reference/safety.md). Contact AutoFAB before you modify the cell. The licences give no warranty beyond what they themselves state (see [LICENSE](LICENSE)).
-
-## License
-- AutoFAB-authored hardware: **CERN-OHL-P-2.0**
-- Documentation: **CC-BY-4.0**
-- Third-party files keep their original licences (ElRobot and leslider: Apache-2.0).
-
-See [LICENSE](LICENSE) and [NOTICE](NOTICE).
+Licences: see [LICENSE](LICENSE), [LICENSES/](LICENSES/) and [NOTICE](NOTICE).

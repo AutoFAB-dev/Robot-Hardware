@@ -22,7 +22,7 @@ Plug the driver into the Raspberry Pi. Whether that is a Pi USB-A port or USB-C,
 The Pi has its **own 27 W USB-C** supply. Do not power the Pi from the 12 V driver, and do not power the servos from the Pi.
 
 ## Network
-If you have Ethernet, plug the Pi into the **same network as your printers**. Guest or isolated Wi-Fi often blocks the cell. Wi-Fi setup is the customer path ([step 5](../../setup/05-power-on-and-wifi.md)), not a hardware ID.
+If you have Ethernet, plug the Pi into the **same network as your printers**. Guest or isolated Wi-Fi often blocks the cell. Flash, install and remote access are the customer path ([step 5](../../setup/05-flash-install-remote-access.md)), not a hardware ID.
 
 ## What this page does not cover
 Camera USB: [cameras wiring](../cameras/wiring.md). GPIO, CSI camera connectors, and pin headers: **TODO** (this cell uses USB UVC cameras; no CSI pinout is stated in ElRobot or the cell parts list).
