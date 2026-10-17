@@ -12,4 +12,4 @@
 If something goes wrong: [Troubleshooting](troubleshooting.md) · [Getting help](getting-help.md)
 
 ## Reference
-[Safety](reference/safety.md) · [Arm](reference/arm/) · [Rail](reference/rail/) · [Controller](reference/controller/) · [Cameras](reference/cameras/) · [all reference](reference/)
+[Safety](reference/safety.md) · [Arm](reference/arm/) · [Rail](reference/rail/) · [Controller](reference/controller/) · [Cameras](reference/cameras/) · [printable files](../hardware/) · [all reference](reference/)

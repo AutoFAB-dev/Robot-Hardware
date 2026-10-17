@@ -3,18 +3,24 @@ AutoFAB Robot Hardware: licensing
 This repository is multi-licensed. Full texts are in LICENSES/.
 
 1. Hardware designs authored by AutoFAB (everything under cad/ except
-   cad/elrobot/) are licensed under CERN-OHL-P-2.0 (LICENSES/CERN-OHL-P-2.0.txt).
+   cad/elrobot/, and everything under hardware/ except the third-party
+   copies listed below) are licensed under CERN-OHL-P-2.0
+   (LICENSES/CERN-OHL-P-2.0.txt).
 2. Documentation (README.md, docs/, bom/, firmware/*.md, images/) is licensed
    under CC-BY-4.0 (LICENSES/CC-BY-4.0.txt).
 
 Third-party material (keeps its original licence):
-- cad/elrobot/: unmodified files from ElRobot by NormaCore,
+- hardware/arm/follower/, hardware/cameras/, hardware/controller/, and
+  cad/elrobot/: unmodified files from ElRobot by NormaCore,
   https://github.com/norma-core/norma-core/tree/main/hardware/elrobot,
-  licensed Apache-2.0 (cad/elrobot/LICENSE). The norma-core repository root
-  is MIT; the hardware/elrobot folder carries its own Apache-2.0 licence.
-- The rail design follows leslider by Pham Tuan Binh,
+  licensed Apache-2.0 (licence text in each of those folders and
+  LICENSES/Apache-2.0.txt). Copied from commit
+  0d17bb300d712eeb5437d41ddb95ce380b5384e6. The norma-core repository
+  root is MIT; the hardware/elrobot folder carries its own Apache-2.0
+  licence. Follower parts only; leader files were not copied.
+- hardware/rail/: unmodified files from leslider by Pham Tuan Binh,
   https://github.com/pham-tuan-binh/leslider, licensed Apache-2.0
-  (LICENSES/third-party/leslider-Apache-2.0.txt). No leslider files are
-  copied here; the docs link to them upstream.
+  (hardware/rail/LICENSE and LICENSES/third-party/leslider-Apache-2.0.txt).
+  Copied from commit a7c5c86669f7452e60e764f14ab0bff406213e3d.
 
 Copyright (c) 2026 AutoFAB.

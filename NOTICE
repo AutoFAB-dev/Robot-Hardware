@@ -2,15 +2,28 @@ AutoFAB Robot Hardware
 Copyright (c) 2026 AutoFAB
 
 This repository includes third-party material. Those files keep their
-original licences; texts are in LICENSES/ and cad/elrobot/LICENSE.
+original licences; texts are in LICENSES/, cad/elrobot/LICENSE, and
+each hardware/*/LICENSE.
 
 ElRobot (hardware/elrobot) by NormaCore
 https://github.com/norma-core/norma-core/tree/main/hardware/elrobot
 Licensed Apache-2.0. The norma-core repository root is MIT; the
-hardware/elrobot folder carries its own Apache-2.0 licence. The files
-in cad/elrobot/ are unmodified upstream copies.
+hardware/elrobot folder carries its own Apache-2.0 licence.
+
+Follower printed parts copied into this repo (unmodified, upstream
+names kept) from commit 0d17bb300d712eeb5437d41ddb95ce380b5384e6:
+- hardware/arm/follower/ (STL, STEP, 3MF; follower only)
+- hardware/cameras/ (gripper camera mounts)
+- hardware/controller/ (optional driver enclosures)
+- cad/elrobot/ (earlier copies of the three camera-mount STLs and
+  the basic camera-mount 3MF)
+
+Leader-arm files, combined leader+follower plates, simulation, and
+STEP/ElRobot.stp were not copied.
 
 leslider by Pham Tuan Binh
 https://github.com/pham-tuan-binh/leslider
-Licensed Apache-2.0. The rail design and its servo recipe follow
-leslider; no leslider files are copied here.
+Licensed Apache-2.0. Printed parts copied into hardware/rail/ from
+commit a7c5c86669f7452e60e764f14ab0bff406213e3d (3d/full_print.3mf
+and 3d/separate_components/). Licence text:
+LICENSES/third-party/leslider-Apache-2.0.txt and hardware/rail/LICENSE.

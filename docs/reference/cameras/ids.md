@@ -4,7 +4,7 @@ Credit: ElRobot names a wrist / arm camera and a table camera; the cell path nam
 
 | View | What it looks at | Source |
 |---|---|---|
-| Wrist | Gripper / both jaws | ElRobot arm camera; customer ready check |
+| Wrist | Gripper / both jaws | ElRobot arm camera + mount S; customer ready check |
 | Scene | Whole print bed and the space the arm will work in | ElRobot “Table Camera”; cell parts list “scene camera” |
 
 USB device paths, `/dev/video*` numbers, and OpenCV indices are **TODO**. Do not invent them. AutoFAB software is closed; this page is the two hardware views only.

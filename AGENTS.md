@@ -9,8 +9,11 @@ docs/setup/       customer path (01–07)
 docs/troubleshooting.md, docs/getting-help.md
 docs/reference/   safety, plus equal pages for arm, rail, controller, cameras
 docs/reference/<component>/  parts, wiring, IDs, assembly, checks (same set on each)
+hardware/         printable files per component; each folder has a part table
+hardware/arm/follower/, cameras/, controller/  ElRobot (Apache-2.0)
+hardware/rail/    leslider (Apache-2.0)
 bom/              cell parts list (quantities and links, no prices)
-cad/              printable files; cad/elrobot/ keeps its own licence
+cad/              older ElRobot camera-mount copies; cad/elrobot/ keeps its licence
 tools/check.sh    run before every push
 ```
 

@@ -33,6 +33,7 @@ Background only — not the customer path.
 | Controller | [docs/reference/controller/](docs/reference/controller/) |
 | Cameras | [docs/reference/cameras/](docs/reference/cameras/) |
 | Cell parts list | [bom/BOM.md](bom/BOM.md) |
+| Printable files | [hardware/](hardware/) |
 | CAD files | [cad/](cad/) |
 | Photos (TODO) | [images/](images/) |
 | Licences | [LICENSE](LICENSE), [NOTICE](NOTICE), [TRADEMARKS.md](TRADEMARKS.md) |

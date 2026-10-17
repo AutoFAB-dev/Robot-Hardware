@@ -4,17 +4,22 @@ Credit: servo driver, 12 V supply, optional printed enclosure, and USB cable not
 
 Print defaults for the optional ElRobot enclosure (ElRobot README): **PLA**, **0.4 mm nozzle**, **0.2 mm layers**. Combined STLs are exported in the **optimal printing orientation**. Infill is **TODO**. Which manual letter (T1 / T2 vs U1 / U2) is the Waveshare pair and which is the Seeed pair is **TODO**.
 
+Files in this repo: [`hardware/controller/`](../../../hardware/controller/) (Apache-2.0; upstream commit recorded there).
+
 Arm printed parts: [arm parts](../arm/parts.md). Rail: [rail parts](../rail/parts.md). Cameras and the powered USB hub: [cameras parts](../cameras/parts.md).
 
 ## Printed
 
-| Qty | Part (manual letter) | Material | Infill | Orientation |
-|---|---|---|---|---|
-| 1 set | Driver enclosure — Waveshare pair **or** Seeed pair (T1, T2, U1, U2; choose the pair that matches your board) | PLA | TODO | TODO (use upstream `case_for_waveshare` or `case_for_seedstudio` STL) |
+| Qty | Part | File | Material | Infill | Orientation |
+|---|---|---|---|---|---|
+| 1 | Waveshare enclosure case | [`ws_enclosure_case.stl`](../../../hardware/controller/STL/case_for_waveshare/ws_enclosure_case.stl) | PLA | TODO | TODO |
+| 1 | Waveshare enclosure lid | [`ws_enclosure_lid.stl`](../../../hardware/controller/STL/case_for_waveshare/ws_enclosure_lid.stl) | PLA | TODO | TODO |
+| 1 | Seeed enclosure case | [`ss_enclosure_case.stl`](../../../hardware/controller/STL/case_for_seedstudio/ss_enclosure_case.stl) | PLA | TODO | TODO |
+| 1 | Seeed enclosure lid | [`ss_enclosure_lid.stl`](../../../hardware/controller/STL/case_for_seedstudio/ss_enclosure_lid.stl) | PLA | TODO | TODO |
 
-The enclosure is **optional** (ElRobot README: “Driver enclosure: Optional. Choose the enclosure that fits your servo driver board (Waveshare or SeeedStudio) or remove if not needed.”). Manual step 2 uses **5× M2×6** on the chosen pair.
+Print **either** the Waveshare pair **or** the Seeed pair. The enclosure is **optional** (ElRobot README: “Driver enclosure: Optional. Choose the enclosure that fits your servo driver board (Waveshare or SeeedStudio) or remove if not needed.”). Manual step 2 uses **5× M2×6** on the chosen pair. Plates: [`enclosure_for_waveshare_basic.3mf`](../../../hardware/controller/print/basic/enclosure_for_waveshare_basic.3mf), [`enclosure_for_seedstudio_basic.3mf`](../../../hardware/controller/print/basic/enclosure_for_seedstudio_basic.3mf).
 
-A printed case for the Raspberry Pi is **TODO** (not in ElRobot or the cell parts list).
+A printed case for the Raspberry Pi is **TODO** (not in ElRobot or the cell parts list). Full file table: [hardware/controller/README.md](../../../hardware/controller/README.md).
 
 ## Purchased
 

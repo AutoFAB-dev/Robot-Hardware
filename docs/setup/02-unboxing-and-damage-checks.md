@@ -13,7 +13,7 @@ Open the box and look at every part before you mount anything.
 - A missing stop button or power supply
 - A loose camera lens or broken USB plug
 
-If a camera is packed separately, leave it off until [step 4](04-wiring-power-stop-cameras.md).
+If the wrist camera and mount are packed separately, leave them off until [step 4](04-wiring-power-stop-cameras.md).
 
 ## If something is damaged
 Stop. Take a photo (no faces, serial numbers, or network names) and see [Getting help](../getting-help.md). Do not power the arm.

@@ -15,9 +15,10 @@ Use this if a setup step does not match what you see. Still stuck? [Getting help
 | Cell offline in the app | Check the Pi has power. Use Ethernet on the printers' network if you can, not guest Wi-Fi. Online/offline should follow the real box. |
 | Cell appears twice | You should see the cell **once**. Two entries usually means a copied card (each box needs its own image). Stop and contact AutoFAB. Don't keep both. |
 | Camera shows a black picture | Plug cameras into the powered hub, not the Pi alone. Until the picture is back, don't use that view. |
-| Wrist picture is blurry or shows a cable, not the jaws | Re-seat the camera, check focus, and aim so both jaws are in view. |
+| Wrist picture is blurry or shows a cable, not the jaws | Re-seat the mount, check focus, and aim so both jaws are in view. |
 | Printer shows unreachable | Put the printer and the cell on the same network. First confirm the printer's own app can see it. |
 | Carriage clicks or jumps | Tighten the pinion on the rack. Check the rack pieces sit in the slot. |
+| Wrist-camera mount cracked | Reprint it. File: [`CameraMount_square_27mm.stl`](../hardware/cameras/STL/gripper_camera_mounts/CameraMount_square_27mm.stl). |
 | A joint does not move later (when AutoFAB asks you to power 12 V) | Check [arm IDs](reference/arm/ids.md) and [rail IDs](reference/rail/ids.md), reseat the bus cable, confirm 12 V is on. |
 
 Don't put passwords, claim codes, or tokens in photos or issues.

@@ -4,23 +4,24 @@ Credit: purchased hardware and printed-part names from the [leslider README](htt
 
 Print defaults: **TODO**. leslider ships `3d/full_print.3mf` and `3d/separate_components/` but does not state filament, nozzle, layer height, infill, or orientation. Do not assume the ElRobot PLA / 0.4 mm / 0.2 mm defaults apply here.
 
-CAD: [leslider `3d/`](https://github.com/pham-tuan-binh/leslider/tree/main/3d). Onshape source is linked from that README. No leslider files are copied in this repo (see [NOTICE](../../../NOTICE)).
+Files in this repo: [`hardware/rail/`](../../../hardware/rail/) (Apache-2.0; upstream commit recorded there). Onshape source is linked from the leslider README.
 
 Arm printed parts: [arm parts](../arm/parts.md). Controller and cameras: [controller parts](../controller/parts.md), [cameras parts](../cameras/parts.md).
 
 ## Printed
 
-| Qty | Part | Material | Infill | Orientation |
-|---|---|---|---|---|
-| 2 | Legs (`separate_components/leg.3mf`) | TODO | TODO | TODO (use upstream `.3mf` plate if you have it) |
-| 1 | Base mount (`separate_components/base_mount.3mf`) | TODO | TODO | TODO |
-| 1 | Pinion (`separate_components/pinion.3mf`) | TODO | TODO | TODO |
-| as needed | Rack track segments (`separate_components/track.3mf`), 20 mm each | TODO | TODO | TODO |
-| 1 | ElRobot-to-carriage adapter | TODO | TODO | TODO |
+| Qty | Part | File | Material | Infill | Orientation |
+|---|---|---|---|---|---|
+| 2 | Legs | [`leg.3mf`](../../../hardware/rail/3d/separate_components/leg.3mf) | TODO | TODO | TODO (use upstream `.3mf` plate if you have it) |
+| 1 | Base mount | [`base_mount.3mf`](../../../hardware/rail/3d/separate_components/base_mount.3mf) | TODO | TODO | TODO |
+| 1 | Pinion | [`pinion.3mf`](../../../hardware/rail/3d/separate_components/pinion.3mf) | TODO | TODO | TODO |
+| as needed | Rack track segments, 20 mm each | [`track.3mf`](../../../hardware/rail/3d/separate_components/track.3mf) | TODO | TODO | TODO |
+| 1 plate | All-in-one plate | [`full_print.3mf`](../../../hardware/rail/3d/full_print.3mf) | TODO | TODO | TODO |
+| 1 | ElRobot-to-carriage adapter | **TODO** | TODO | TODO | TODO |
 
 leslider: print enough 20 mm track segments to span the extrusion; trim the last one if it overruns. The upstream base mount is designed for the SO-101 base, not ElRobot.
 
-Adapter file path, hole pattern, and fasteners: **TODO** ([cad/README.md](../../../cad/README.md)).
+Adapter file path, hole pattern, and fasteners: **TODO** ([cad/README.md](../../../cad/README.md)). Full file table: [hardware/rail/README.md](../../../hardware/rail/README.md).
 
 ## Purchased
 
