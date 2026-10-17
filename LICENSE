@@ -6,7 +6,6 @@ This repository is multi-licensed. Full texts are in LICENSES/.
    cad/elrobot/) are licensed under CERN-OHL-P-2.0 (LICENSES/CERN-OHL-P-2.0.txt).
 2. Documentation (README.md, docs/, bom/, firmware/*.md, images/) is licensed
    under CC-BY-4.0 (LICENSES/CC-BY-4.0.txt).
-3. Code and scripts, if any, are licensed under Apache-2.0 (LICENSES/Apache-2.0.txt).
 
 Third-party material (keeps its original licence):
 - cad/elrobot/: unmodified files from ElRobot by NormaCore,

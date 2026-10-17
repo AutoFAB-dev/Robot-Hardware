@@ -2,7 +2,7 @@
 
 Put the cell next to the printer it will serve. The arm stays unpowered for this step.
 
-**Safety:** Keep the 12 V supply unplugged. Leave clear space around the arm: about 430 mm from the base, plus the length of the rail. Watch for pinch points at the gripper and where the carriage meets the rack.
+**Safety:** Keep the 12 V supply unplugged. Leave clear space around the arm: **430 mm** reach from the base (ElRobot spec), plus the length of the rail. Watch for pinch points at the gripper and where the carriage meets the rack.
 
 **TODO image:** rail clamped to a bench in front of a printer, arm supported, reach space marked
 
@@ -17,8 +17,6 @@ Put the cell next to the printer it will serve. The arm stays unpowered for this
 
 ## Scene camera spot
 Pick a rigid place with a clear view of the whole print bed. You will fix the camera there in [step 4](04-wiring-power-stop-cameras.md). Don't put it where the arm will hit it.
-
-If you still need to build the arm or rail from printed parts, do that first: [Build the arm and rail](../reference/build-the-arm-and-rail.md).
 
 **Back:** [2. Unbox and check for damage](02-unboxing-and-damage-checks.md)
 **Next:** [4. Wiring, power, stop and cameras](04-wiring-power-stop-cameras.md)

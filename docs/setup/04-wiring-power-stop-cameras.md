@@ -12,7 +12,7 @@ Connect power, the stop, and the cameras. Do not switch the arm's 12 V on yet.
 3. Leave the 12 V supply **off / unplugged** for now.
 4. Plug the 27 W USB-C supply into the Raspberry Pi. Don't turn it on yet.
 
-The rail servo sits on the same cable chain as the arm, after the gripper. You should not need to re-wire that if the cell arrived built. Hardware notes: [servos](../reference/servos.md).
+The rail servo sits on the same cable chain as the arm, after the gripper. You should not need to re-wire that if the cell arrived built. Hardware notes: [arm wiring](../reference/arm/wiring.md).
 
 ## Cameras
 1. Plug the powered USB hub into the Pi.

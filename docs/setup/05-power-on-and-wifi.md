@@ -23,7 +23,7 @@ If the card came already written, skip this.
 ## Join the setup network
 1. On your phone, join the Wi-Fi network named `AutoFAB-XXXX`. Use the **setup card** in the box for the exact name and password. **TODO:** where DIY builders get that password if there is no card.
 2. A page should open on its own (a captive page). Pick your shop Wi-Fi — the same network as the printers, not a guest network — and enter its password.
-3. The page shows a **claim code** or a **claim link**. Write the code down. If it expires, a new one appears; don't unplug the Pi.
+3. The page gives you a **claim link** (and may show a code). Don't unplug the Pi.
 4. Leave the setup network. Switch your phone back to your usual Wi-Fi or mobile data.
 
 If the shop Wi-Fi details were wrong, `AutoFAB-XXXX` comes back. Join that same setup network again and retry. Don't re-flash. More help: [Troubleshooting](../troubleshooting.md).
@@ -31,7 +31,7 @@ If the shop Wi-Fi details were wrong, `AutoFAB-XXXX` comes back. Join that same 
 ## Add the cell in the app
 1. On usual Wi-Fi or mobile data, open the claim link if you have one, or go to [app.autofab.net](https://app.autofab.net).
 2. Sign in. Choose the right organization (your company) if the app asks.
-3. Choose **Add a Fab**, enter the code if you still need to, then **Claim**. Give the cell a name.
+3. Choose **Add a Fab**, open the claim link or enter the code if the app asks, then **Claim**. Give the cell a name.
 4. Wait until the cell shows **Online**. It should appear **once**. If you unplug the Pi, it should go offline.
 
 The cell needs a normal outbound internet connection (HTTPS) and must be on the same network as the printers.

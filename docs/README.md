@@ -1,8 +1,6 @@
 # Docs
 
 ## Set up your cell
-Follow these steps in order. That is the main job of this repository.
-
 1. [What's in the box](setup/01-whats-in-the-box.md)
 2. [Unbox and check for damage](setup/02-unboxing-and-damage-checks.md)
 3. [Mount the arm and rail](setup/03-mounting-arm-and-rail.md)
@@ -14,4 +12,4 @@ Follow these steps in order. That is the main job of this repository.
 If something goes wrong: [Troubleshooting](troubleshooting.md) · [Getting help](getting-help.md)
 
 ## Reference
-BOM, printed parts, CAD, servo notes, safety, licences and contributing: [reference/](reference/).
+[Safety](reference/safety.md) · [Arm](reference/arm/) · [all reference](reference/)

@@ -31,6 +31,4 @@ This is the first step of the self-service guide. Tick each item before you go o
 - [ ] Setup card, if one came in the box (it has the setup Wi-Fi name)
 - [ ] The AutoFAB cell image, if the card is blank (**TODO:** public download)
 
-If you are building from parts yourself, use the [bill of materials](../../bom/BOM.md) and [printed parts](../reference/printed-parts.md) in Reference, then [build the arm and rail](../reference/build-the-arm-and-rail.md) before this list.
-
 **Next:** [2. Unbox and check for damage](02-unboxing-and-damage-checks.md)

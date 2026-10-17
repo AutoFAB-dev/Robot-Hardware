@@ -1,3 +1,3 @@
 # Default owners for review requests.
 # TODO: set `* @AutoFAB-dev/maintainers` once that GitHub team exists.
-# Until then, maintainers review PRs as described in GOVERNANCE.md.
+# Until then, a maintainer reviews invited PRs.
