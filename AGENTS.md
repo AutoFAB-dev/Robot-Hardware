@@ -23,7 +23,7 @@ tools/check.sh      # relative links, public-safety scan, large files
 ```
 
 ## Invariants
-- AutoFAB is a managed service: our systems manage production on your machines, including AutoFAB's AI agents plus a human supervision service. Never claim the cell runs without that service. Software is closed; only the hardware is open.
+- AutoFAB is a managed service: our systems manage production on your machines. Never claim the cell runs without that service. Software is closed; only the hardware is open.
 - Hardware: CERN-OHL-P-2.0. Docs: CC-BY-4.0. Third-party files keep Apache-2.0 (ElRobot, leslider) with texts in LICENSES/ and NOTICE.
 - Do not invent print settings, quantities or IDs. Cite ElRobot or leslider, or mark TODO.
 - Never write internal hostnames, endpoints, scripts, tokens or service names.

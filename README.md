@@ -3,7 +3,7 @@
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/hardware-CERN--OHL--P--2.0-blue.svg)](LICENSE)
 [![Docs: CC-BY-4.0](https://img.shields.io/badge/docs-CC--BY--4.0-lightgrey.svg)](LICENSE)
 
-This repository is a **self-service guide** so you can put an AutoFAB cell next to your printers and hand it over. AutoFAB is **a managed service: our systems manage production on your machines**. That includes AutoFAB's AI agents plus a human supervision service. AutoFAB software is closed source; only this hardware is open.
+This repository is a **self-service guide** so you can put an AutoFAB cell next to your printers and hand it over. AutoFAB is **a managed service: our systems manage production on your machines**. AutoFAB software is closed source; only this hardware is open.
 
 > For the plug-and-play, done-for-you setup, go to **[autofab.net](https://autofab.net)**.
 
@@ -42,10 +42,8 @@ Background only — not the customer path.
 
 The cell is an ElRobot arm on a leslider-style rail, with a wrist camera, a scene camera, and a Raspberry Pi. Thank you to [ElRobot / NormaCore](https://github.com/norma-core/norma-core/tree/main/hardware/elrobot) and [leslider / Pham Tuan Binh](https://github.com/pham-tuan-binh/leslider).
 
-Need help? [docs/getting-help.md](docs/getting-help.md).
-
 ## Disclaimer
-This hardware is supplied by AutoFAB and is meant to be run as part of AutoFAB's managed service: our systems manage production on your machines, including AutoFAB's AI agents plus a human supervision service. Follow the [safety steps](docs/reference/safety.md). Contact AutoFAB before you modify the cell. The licences give no warranty beyond what they themselves state (see [LICENSE](LICENSE)).
+This hardware is supplied by AutoFAB and is meant to be run as part of AutoFAB's managed service: our systems manage production on your machines. Follow the [safety steps](docs/reference/safety.md). Contact AutoFAB before you modify the cell. The licences give no warranty beyond what they themselves state (see [LICENSE](LICENSE)).
 
 ## License
 - AutoFAB-authored hardware: **CERN-OHL-P-2.0**
