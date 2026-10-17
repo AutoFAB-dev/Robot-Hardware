@@ -93,10 +93,9 @@ Wait 1 minute, then log in again as in Step 3.
 Download the script and look at it if you like (it's short and contains no secrets):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AutoFAB-dev/Robot-Hardware/docs/initial-hardware-release/scripts/install.sh -o install.sh
+curl -fsSL https://raw.githubusercontent.com/AutoFAB-dev/Robot-Hardware/main/scripts/install.sh -o install.sh
 less install.sh        # optional; press q to quit
 ```
-<!-- TODO: switch back to main after PR #1 merges -->
 
 Run it. Replace the parts in `< >` with what AutoFAB gives you during your onboarding session. `--printer-ip` is
 your printer's LAN IP address (on a Bambu printer: *Settings → Network*); leave it out if you don't

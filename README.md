@@ -15,7 +15,7 @@ source; the AutoFAB software that runs the cell is closed source and is installe
 | 2 | Unbox and check for damage | [setup/02](docs/setup/02-unboxing-and-damage-checks.md) | 10 min |
 | 3 | **Assemble**: mount the arm and rail | [setup/03](docs/setup/03-mounting-arm-and-rail.md) | 20 min |
 | 4 | Wire power (off), stop and cameras | [setup/04](docs/setup/04-wiring-power-stop-cameras.md) | 15 min |
-| 5 | **Flash, install, remote access** | [setup/05](docs/setup/05-flash-install-remote-access.md) · script: [`scripts/install.sh`](https://raw.githubusercontent.com/AutoFAB-dev/Robot-Hardware/docs/initial-hardware-release/scripts/install.sh) <!-- TODO: switch back to main after PR #1 merges --> | 45 min |
+| 5 | **Flash, install, remote access** | [setup/05](docs/setup/05-flash-install-remote-access.md) · script: [`scripts/install.sh`](https://raw.githubusercontent.com/AutoFAB-dev/Robot-Hardware/main/scripts/install.sh) | 45 min |
 | ✓ | **Done for now.** AutoFAB finishes the software setup remotely and schedules the arm bring-up with you | — | — |
 
 Later, with AutoFAB: [6. Link your printer](docs/setup/06-link-your-printer.md) ·

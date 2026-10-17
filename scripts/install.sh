@@ -4,7 +4,7 @@
 #
 # Run ON the Raspberry Pi, after flashing stock Raspberry Pi OS Lite (64-bit):
 #
-#   curl -fsSL https://raw.githubusercontent.com/AutoFAB-dev/Robot-Hardware/docs/initial-hardware-release/scripts/install.sh -o install.sh
+#   curl -fsSL https://raw.githubusercontent.com/AutoFAB-dev/Robot-Hardware/main/scripts/install.sh -o install.sh
 #   sudo bash install.sh --hostname <name> --ssh-key "<public key AutoFAB gives you>"
 #   (the script then asks you to paste the one-time access key AutoFAB gives you)
 #
