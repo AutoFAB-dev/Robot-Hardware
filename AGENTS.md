@@ -6,6 +6,7 @@ Rules for agents maintaining this public hardware repo.
 ## Layout
 ```
 docs/setup/       customer path (01–07)
+docs/calibration/ owner calibration (IDs local; homing after SSH; camera/bed TODOs)
 docs/troubleshooting.md, docs/getting-help.md
 docs/reference/   safety, plus equal pages for arm, rail, controller, cameras
 docs/reference/<component>/  parts, wiring, IDs, assembly, checks (same set on each)

@@ -16,6 +16,7 @@ This repository is the hardware design, parts list, printable files, and setup d
 - A full parts list with buy links in [`bom/BOM.md`](bom/BOM.md)
 - Assembly, wiring, IDs, and checks in [`docs/reference/`](docs/reference/)
 - First-day controller setup in [`docs/setup/`](docs/setup/) and [`scripts/install.sh`](scripts/install.sh)
+- Cell calibration (IDs you set locally, then homing after remote access) in [`docs/calibration/`](docs/calibration/)
 
 **Not in this repo**
 - AutoFAB’s production software. AutoFAB is a **managed service: our systems manage production on your machines**. That software is closed source. This repo does not run jobs, plan motion, or replace the service.
@@ -41,6 +42,7 @@ The arm is limp without 12 V. Enclosed printer doors are opened by hand; arm doo
 ```
 bom/          Parts list for one cell, with buy links (no prices)
 docs/setup/   Numbered path once the cell is on the bench (01–07)
+docs/calibration/  Servo IDs, arm profile, rail home; camera and bed TODOs
 docs/reference/  Safety, plus parts / wiring / IDs / assembly / checks
                  for arm, rail, controller, cameras
 hardware/     Printable files per component (each folder has a part table)
@@ -93,7 +95,7 @@ sudo bash install.sh --hostname <cell-name> --ssh-key "<AutoFAB public SSH key>"
 
 Full flags and the hardware check: [`scripts/install.sh`](scripts/install.sh). The script installs OS packages and remote-support access only. It does not install AutoFAB service software and it never moves a motor.
 
-After step 5, AutoFAB finishes software setup remotely and schedules arm bring-up with you. Later, with AutoFAB: [step 6](docs/setup/06-link-your-printer.md) · [step 7](docs/setup/07-ready-check-and-handover.md).
+After step 5, AutoFAB finishes software setup remotely and schedules arm bring-up with you. Later, with AutoFAB: [step 6](docs/setup/06-link-your-printer.md) (printer on the LAN) · [calibration](docs/calibration/) (IDs are already local; homing and the arm profile run after SSH) · [step 7](docs/setup/07-ready-check-and-handover.md).
 
 ## Bill of materials
 
@@ -115,6 +117,7 @@ The Pi and the printers must be on the **same LAN** (no guest network, no client
 | | Where |
 |---|---|
 | Setup (01–07) | [`docs/setup/`](docs/setup/) · [index](docs/setup/README.md) |
+| Calibration | [`docs/calibration/`](docs/calibration/) · [index](docs/calibration/README.md) |
 | Safety | [`docs/reference/safety.md`](docs/reference/safety.md) |
 | Arm / rail / controller / cameras | [`docs/reference/`](docs/reference/README.md) — each has parts, wiring, IDs, assembly, checks |
 | Printable files | [`hardware/README.md`](hardware/README.md) |

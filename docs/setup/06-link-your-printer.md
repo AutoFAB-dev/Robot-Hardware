@@ -25,4 +25,4 @@ If it shows unreachable, move the printer and the cell onto one network, confirm
 Don't type passwords, claim codes, or printer access codes into a GitHub issue. If you are stuck, use [Getting help](../getting-help.md).
 
 **Back:** [5. Flash, install, remote access](05-flash-install-remote-access.md)
-**Next:** [7. Ready check and handover](07-ready-check-and-handover.md)
+**Next:** [Calibrate the cell](../calibration/) (before the [ready check](07-ready-check-and-handover.md))

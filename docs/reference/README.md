@@ -22,6 +22,7 @@ Each cell component has the same pages: parts, wiring and IDs, assembly, and che
 
 Values not stated by the cited source are **TODO**. Do not invent print settings, quantities, or IDs.
 
+- [Calibration](../calibration/)
 - [Safety](safety.md)
 - [Cell parts list](../../bom/BOM.md)
 - [Printable files](../../hardware/README.md)

@@ -20,12 +20,12 @@ Tick these before you hand over:
 If a camera goes black, stop using that view and tell AutoFAB.
 
 ## Hand over
-Arm calibration, rail home, bed height, fiducials and the first managed job are finished **with AutoFAB**.
+Work through [calibration](../calibration/) before you call this done. You set servo IDs on the bench. Arm home, the arm profile, and rail home run **after** SSH, in the AutoFAB app, with someone at the stop ([safety](../reference/safety.md)). Camera metric calibration, fiducials, and bed / plate registration are **TODO** on those pages — do not invent them. The first managed job is finished **with AutoFAB**.
 
-1. Leave the cell as it is (Online, cameras plugged in, stop ready, 12 V off).
+1. Leave the cell as it is (Online, cameras plugged in, stop ready, 12 V off unless AutoFAB has asked you to power the arm for a homing session).
 2. Tell AutoFAB you have finished this guide. Use [Getting help](../getting-help.md) or email [info@autofab.net](mailto:info@autofab.net).
 3. Stay nearby for the first session. Someone must be able to hit the stop whenever the arm has power.
 
-**Back:** [6. Link your printer](06-link-your-printer.md)
+**Back:** [Calibrate the cell](../calibration/) · [6. Link your printer](06-link-your-printer.md)
 
 Something not right? [Troubleshooting](../troubleshooting.md)
