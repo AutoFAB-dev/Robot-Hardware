@@ -10,7 +10,7 @@ Plug the **powered** USB hub into the Raspberry Pi. Plug the wrist camera and th
 The hub needs its own external power. Wattage: **TODO**.
 
 ## Wrist cable
-Route the wrist-camera cable as the ElRobot manual shows at steps 68, 70, 73, and 75 (along the arm, then through the base). Leave slack at every joint. The printed **wiring bracket** (R) on the gripper is an arm part ([arm assembly](../arm/assembly.md) steps 58–59); the camera cable uses the same path.
+Route the wrist-camera cable as the ElRobot manual shows at steps 68, 70, 73, and 75 (along the arm, then through the base). Leave slack at every joint. Strain-relieve at the mount: zip-tie the cable to Camera Mount (S) so a pull lands on the mount, not on the camera's connector or lens (zip-tie size **TODO**; not in the ElRobot counted hardware). See [assembly](assembly.md). The printed **wiring bracket** (R) on the gripper is an arm part ([arm assembly](../arm/assembly.md) steps 58–59); the camera cable uses the same path.
 
 Cable clips along the arm: **TODO**.
 

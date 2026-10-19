@@ -8,7 +8,7 @@ Same pages as the other components:
 
 - [Parts](parts.md)
 - [Wiring and IDs](wiring.md) · [IDs](ids.md)
-- [Assembly](assembly.md)
+- [Assembly](assembly.md) — including [replace a broken wrist camera](assembly.md#replace-a-broken-wrist-camera) and [packing a built cell](assembly.md#packing-a-built-cell)
 - [Checks](checks.md)
 
 See also: [arm](../arm/), [rail](../rail/), [controller](../controller/). Customer path: [Set up your cell](../../setup/01-whats-in-the-box.md).

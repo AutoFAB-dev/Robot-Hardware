@@ -8,7 +8,7 @@ ElRobot gripper camera mounts. Unmodified copies from [ElRobot / NormaCore](http
 
 Print defaults (ElRobot README): **PLA**, **0.4 mm nozzle**, **0.2 mm layers**. Combined STLs are in the **optimal printing orientation**. Infill is **TODO**. The `.3mf` plates include all three mounts — choose the one that fits your camera and delete the others before slicing.
 
-Docs: [cameras reference](../../docs/reference/cameras/).
+Docs: [cameras reference](../../docs/reference/cameras/) · [replace a broken wrist camera](../../docs/reference/cameras/assembly.md#replace-a-broken-wrist-camera) · [packing a built cell](../../docs/reference/cameras/assembly.md#packing-a-built-cell)
 
 ## Printed parts
 
