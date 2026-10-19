@@ -61,7 +61,7 @@ Use this if the lens is loose and will not focus, the camera will not aim at the
 1. Buy the default wrist camera, **Innomaker U20CAM-1080P**, from the [parts list](../../../bom/BOM.md) (Amazon listing there), or any UVC USB camera that fits a matching mount ([parts](parts.md)).
 2. Reprint the matching mount. For the default U20CAM, print [`CameraMount_square_27mm.stl`](../../../hardware/cameras/STL/gripper_camera_mounts/CameraMount_square_27mm.stl). Print settings from the ElRobot README: **PLA**, **0.4 mm nozzle**, **0.2 mm layers**; infill **TODO**. Other cameras: pick the file in [parts](parts.md). An Arducam OV9782 mount is **TODO**.
 3. Unplug the wrist camera from the powered hub. Leave 12 V off.
-4. Remove the old camera and mount: undo the **2× M3×8** on the gripper, then the **4× M2×6** that hold the camera in the mount. Unplug the cable at the camera. Leave the cable routed along the arm if it is undamaged.
+4. Cut the zip-tie on the mount, then undo the **2× M3×8** on the gripper, then the **4× M2×6** that hold the camera in the mount. Unplug the cable at the camera. Leave the cable routed along the arm if it is undamaged.
 5. Fit the new camera in the mount. **4× M2×6**. Plug the cable into the camera. Zip-tie the cable to the mount so a pull cannot land on the connector or the lens.
 6. Attach the mount to the gripper. **2× M3×8**.
 7. Confirm slack at every joint and no snags. If you had to pull the cable out of the arm, re-route it as in the steps above (manual 68–75).
@@ -71,13 +71,13 @@ Help: [Getting help](../../getting-help.md) or [info@autofab.net](mailto:info@au
 
 ## Packing a built cell
 
-A wrist camera left bolted to the gripper can take the hit if the box is dropped. Unscrew it before you ship a built cell. The person who unpacks it fits it again in [setup step 4](../../setup/04-wiring-power-stop-cameras.md).
+A wrist camera left bolted to the gripper can take the hit if the box is dropped. Unscrew the mount from the gripper before you ship a built cell. Leave the camera on that mount.
 
-**TODO image:** camera and mount packed separately; cable still plugged in and routed along the arm
+**TODO image:** camera plus mount in their own padding, secured to the arm; cable still connected and routed along the arm
 
 1. Keep **12 V unplugged**. Support the arm.
-2. Unscrew the wrist-camera mount from the gripper (**2× M3×8**). Leave the camera on the mount (**4× M2×6**) and leave the cable plugged into the camera.
-3. Pack the camera and mount separately, padded, so nothing can crush the lens or the USB plug. Keep the cable installed — do not pull it out of the arm. Coil spare slack with the camera.
+2. Unscrew the camera mount from the gripper (**2× M3×8**). Leave the camera on its mount with its cable still connected and routed along the arm.
+3. Wrap the camera plus mount in their own padding, secured to the arm so they cannot swing.
 4. Leave the zip-tie strain relief on the mount.
 
-On arrival: [unbox](../../setup/02-unboxing-and-damage-checks.md) with the camera still off the gripper, then re-attach it in [step 4](../../setup/04-wiring-power-stop-cameras.md) with those two M3×8 screws and confirm [strain relief and checks](checks.md).
+On arrival: screw the mount back onto the gripper (**2× M3×8**) and check the cable. [Unbox](../../setup/02-unboxing-and-damage-checks.md), then confirm the fit in [step 4](../../setup/04-wiring-power-stop-cameras.md) and [checks](checks.md).
