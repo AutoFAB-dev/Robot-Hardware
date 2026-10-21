@@ -69,7 +69,7 @@ Two paths. Both keep **12 V off** until AutoFAB has asked you to switch the arm 
    - Rail: [`hardware/rail/`](hardware/rail/) · [rail parts](docs/reference/rail/parts.md)
    - Wrist mount: [`hardware/cameras/`](hardware/cameras/) (use `CameraMount_square_27mm.stl` for the U20CAM)
    - Optional driver enclosure: [`hardware/controller/`](hardware/controller/)
-4. **Set servo IDs, then assemble** — one servo at a time:
+4. **Set servo IDs, then assemble** — one servo at a time. Method: ElRobot follower manual step 4 plus the [Waveshare Bus Servo Adapter (A) wiki](https://www.waveshare.com/wiki/Bus_Servo_Adapter_(A)) — see [arm IDs](docs/reference/arm/ids.md).
    - Arm IDs 1–8 and build: [arm IDs](docs/reference/arm/ids.md) · [arm assembly](docs/reference/arm/assembly.md) (ElRobot follower manual steps 1–64)
    - Rail ID 9 and build: [rail IDs](docs/reference/rail/ids.md) · [rail assembly](docs/reference/rail/assembly.md)
    - Wrist camera: [cameras assembly](docs/reference/cameras/assembly.md) (manual steps 65–75)

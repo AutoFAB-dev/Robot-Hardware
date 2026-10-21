@@ -14,7 +14,7 @@ Tools: PH1 and PH2 screwdrivers, a marker, clamps, a knife.
 ## Set IDs 1–8
 **TODO image:** one servo on the driver, labelled 1
 
-2. Connect **one** ST3215 at a time. Label it 1 through 8 (manual steps 3–4). Repeat eight times. See [IDs](ids.md). Use the [controller](../controller/assembly.md) driver for this.
+2. Connect **one** ST3215 at a time. Set its ID, then label it 1 through 8 (manual steps 3–4). Repeat eight times. See [IDs](ids.md) for the Waveshare Adapter (A) / ElRobot method. Use the [controller](../controller/assembly.md) driver for this.
 
 ## Base (servo 1)
 **TODO image:** servo 1 seated in the base

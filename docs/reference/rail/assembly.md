@@ -15,7 +15,7 @@ Tools: **TODO** (leslider does not list tools). PH1 / PH2 from the ElRobot kit w
 ## Set ID 9
 **TODO image:** one rail servo on the driver, labelled 9
 
-3. Connect **only** the rail ST3215 to the [controller](../controller/assembly.md) driver. Label it **9**. See [IDs](ids.md). Disconnect it before the next steps.
+3. Connect **only** the rail ST3215 to the [controller](../controller/assembly.md) driver. Set it to **ID 9** with the same [method as the arm](../arm/ids.md#how-to-set-an-id), then label it **9**. See [IDs](ids.md). Disconnect it before the next steps.
 
 ## Rack track
 **TODO image:** 20 mm track segments in the top channel of the 2020

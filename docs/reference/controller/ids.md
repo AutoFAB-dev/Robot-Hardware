@@ -12,4 +12,4 @@ Credit: ElRobot follower manual steps 3–4 (IDs are set **through** the driver,
 
 USB device paths, serial-port names, and GPIO pin numbers are **TODO**. Do not invent them. AutoFAB software is closed; this page is hardware roles only.
 
-When setting IDs: connect **one** servo at a time. Label it before you install it. **TODO:** ElRobot says “Set Servo ids using app” and does not name the app.
+When setting IDs: connect **one** servo at a time. Label it before you install it. ElRobot step 4 says “Set Servo ids using app” and does not name the app. Use the [Waveshare Bus Servo Adapter (A) method](../arm/ids.md#how-to-set-an-id) (jumper **B**, PC or laptop over USB, baud **1,000,000**, `STServo_Python`).
