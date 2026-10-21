@@ -15,13 +15,10 @@ Use this if a setup step does not match what you see. Still stuck? [Getting help
 | Cell offline in the app | Check the Pi has power. Use Ethernet on the printers' network if you can, not guest Wi-Fi. Online/offline should follow the real box. |
 | Cell appears twice | You should see the cell **once**. Two entries usually means a copied card (each box needs its own image). Stop and contact AutoFAB. Don't keep both. |
 | Camera shows a black picture | Plug cameras into the powered hub, not the Pi alone. Until the picture is back, don't use that view. |
-| Wrist picture is blurry or shows a cable, not the jaws | Re-seat the mount, check focus, and aim so both jaws are in view. Confirm the cable is zip-tied to the mount ([strain relief](reference/cameras/assembly.md#wrist-camera-on-the-mount)). If the lens is loose or the camera will not aim at the jaws, [replace the wrist camera](reference/cameras/assembly.md#replace-a-broken-wrist-camera). |
-| Wrist camera is broken, or the lens is loose and will not focus | [Replace the wrist camera](reference/cameras/assembly.md#replace-a-broken-wrist-camera). AutoFAB does not ship replacement parts; buy the camera from the [parts list](../bom/BOM.md) and reprint the mount. Keep 12 V unplugged. |
-| Wrist camera is not aimed at the jaws | Re-seat the mount ([checks](reference/cameras/checks.md)). If it still will not point at both jaws, [replace the wrist camera](reference/cameras/assembly.md#replace-a-broken-wrist-camera). |
+| Wrist picture is blurry or shows a cable, not the jaws | Re-seat the mount, check focus, and aim so both jaws are in view. |
 | Printer shows unreachable | Put the printer and the cell on the same network. First confirm the printer's own app can see it. |
 | Carriage clicks or jumps | Tighten the pinion on the rack. Check the rack pieces sit in the slot. |
-| Wrist-camera mount cracked | Reprint it. File: [`CameraMount_square_27mm.stl`](../hardware/cameras/STL/gripper_camera_mounts/CameraMount_square_27mm.stl). If you are also replacing the camera, use the [replace procedure](reference/cameras/assembly.md#replace-a-broken-wrist-camera). |
-| Pi does not boot, or keeps rebooting | Use the **27 W USB-C** supply (Pi 5) from the [parts list](../bom/BOM.md). Low-watt supplies can cause brown-outs, reboots or USB power limits. Don't power the Pi from the 12 V arm supply. Pi 4: **15 W USB-C** (same parts-list row). |
+| Wrist-camera mount cracked | Reprint it. File: [`CameraMount_square_27mm.stl`](../hardware/cameras/STL/gripper_camera_mounts/CameraMount_square_27mm.stl). |
 | A joint does not move later (when AutoFAB asks you to power 12 V) | Check [arm IDs](reference/arm/ids.md) and [rail IDs](reference/rail/ids.md), reseat the bus cable, confirm 12 V is on. |
 
 Don't put passwords, claim codes, or tokens in photos or issues.

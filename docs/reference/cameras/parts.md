@@ -36,6 +36,4 @@ The cell parts list uses the 27 mm square mount with the Innomaker U20CAM. Full 
 | 4 | Self-tapping screw M2×6 | Camera to mount (manual step 65) |
 | 2 | Screw M3×8 | Mount to gripper base (manual step 66) |
 
-Strain relief at the wrist mount is a zip-tie to Camera Mount (S), so a pull cannot land on the camera's connector or lens. It is not in the ElRobot counted hardware. Size **TODO**. See [assembly](assembly.md).
-
 How the scene camera is fixed to the bench (clamp, printed mount, or otherwise): **TODO**.

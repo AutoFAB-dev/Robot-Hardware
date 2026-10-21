@@ -13,7 +13,7 @@ Open the box and look at every part before you mount anything.
 - A missing stop button or power supply
 - A loose camera lens or broken USB plug
 
-The wrist camera and mount should arrive unscrewed from the gripper, still on the mount, with the cable connected and routed along the arm, wrapped in their own padding and secured to the arm so they cannot swing ([packing a built cell](../reference/cameras/assembly.md#packing-a-built-cell)). Screw the mount back onto the gripper (**2× M3×8**) and check the cable. Camera steps: [step 4](04-wiring-power-stop-cameras.md).
+If the wrist camera and mount are packed separately, leave them off until [step 4](04-wiring-power-stop-cameras.md).
 
 ## If something is damaged
 Stop. Take a photo (no faces, serial numbers, or network names) and see [Getting help](../getting-help.md). Do not power the arm.
