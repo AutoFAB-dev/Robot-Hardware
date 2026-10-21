@@ -10,7 +10,7 @@ Tools: PH1 and PH2 (ElRobot).
 **TODO image:** UVC camera on mount S, 4× M2×6
 
 1. Choose the mount that fits the camera ([parts](parts.md)). The cell parts list uses [`CameraMount_square_27mm.stl`](../../../hardware/cameras/STL/gripper_camera_mounts/CameraMount_square_27mm.stl) with the Innomaker U20CAM-1080P.
-2. Attach the camera to the Camera Mount (S). **4× M2×6** (manual step 65).
+2. Attach the camera to the Camera Mount (S). **4× M2×6** (manual step 65). Zip-tie the cable to the mount so a pull lands on the mount, not on the camera's connector or lens.
 
 ## Mount on the gripper
 **TODO image:** mount on the gripper base, 2× M3×8
