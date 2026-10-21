@@ -29,7 +29,7 @@ Tools: PH1 screwdriver for the enclosure’s M2×6 (ElRobot). Other tools: **TOD
 **TODO image:** microSD seated, 27 W USB-C ready, Ethernet if you have it
 
 8. Seat the microSD card (16 GB or larger). If the card is blank, the customer path flashes Raspberry Pi OS Lite and runs the install script ([step 5](../../setup/05-flash-install-remote-access.md)). Do not invent flash flags here.
-9. Do **not** plug in the 27 W USB-C yet if you are following the customer path (step 4: “Don't turn it on yet”). If you are only setting servo IDs on a bench, you may need a host for the ID app — which host, and whether it is this Pi, is **TODO** (ElRobot shows “PC/Laptop (USB)”).
+9. Do **not** plug in the 27 W USB-C yet if you are following the customer path (step 4: “Don't turn it on yet”). Setting IDs on a bench uses a **PC or laptop** over USB (ElRobot step 4: “PC/Laptop (USB)”), with the adapter jumper on **B**. Waveshare USB Control also lists Raspberry Pi 4B, Jetson Orin Nano, and RDK X3. This bench step does not use the closed AutoFAB image. Method: [arm IDs](../arm/ids.md#how-to-set-an-id).
 10. If you have Ethernet, plug it into the same network as the printers. Do not power the Pi from 12 V.
 
 ## Use the driver to set IDs

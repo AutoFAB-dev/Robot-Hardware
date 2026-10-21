@@ -18,7 +18,7 @@ Combined-plate settings (ElRobot README):
 
 Which individual part sits in which combined plate is **TODO**. Ready-to-slice follower plates: [print/basic/elrobot_follower_basic.3mf](print/basic/elrobot_follower_basic.3mf) and [print/ams/elrobot_follower_ams.3mf](print/ams/elrobot_follower_ams.3mf) (AMS: PLA parts, PETG supports optional).
 
-Camera mounts: [hardware/cameras/](../../cameras/). Driver enclosures: [hardware/controller/](../../controller/). Assembly: [docs/reference/arm/](../../../docs/reference/arm/).
+Camera mounts: [hardware/cameras/](../../cameras/). Driver enclosures: [hardware/controller/](../../controller/). Assembly: [docs/reference/arm/](../../../docs/reference/arm/). Set IDs **1–8** first: [arm IDs](../../../docs/reference/arm/ids.md).
 
 ## Printed parts
 
