@@ -29,6 +29,5 @@ This is the first step of the self-service guide. Tick each item before you go o
 
 ### Setup extras
 - [ ] Setup card, if one came in the box (it has the setup Wi-Fi name)
-- [ ] The AutoFAB cell image, if the card is blank (**TODO:** public download)
 
 **Next:** [2. Unbox and check for damage](02-unboxing-and-damage-checks.md)

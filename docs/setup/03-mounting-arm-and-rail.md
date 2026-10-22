@@ -9,7 +9,7 @@ Put the cell next to the printer it will serve. The arm stays unpowered for this
 ## Place the rail
 1. Set the rail on a rigid bench or table in front of your printer(s).
 2. Clamp both ends so the rail cannot slide or tip.
-3. The carriage should roll the full length by hand. If it clicks or jumps, the pinion is not meshed with the rack — see [Troubleshooting](../troubleshooting.md).
+3. The carriage should roll the full length by hand. If it clicks or jumps, the pinion is not meshed with the rack.
 
 ## Support the arm
 - The unpowered arm is limp. Hold it or rest it so it cannot slam down.

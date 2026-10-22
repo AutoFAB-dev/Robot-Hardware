@@ -1,6 +1,6 @@
 # Rail — checks
 
-Credit: carriage travel and pinion mesh from leslider assembly plus the customer mount step. Click / jump notes match [troubleshooting](../../troubleshooting.md).
+Credit: carriage travel and pinion mesh from leslider assembly plus the customer mount step.
 
 **TODO image:** rail clamped, carriage rolled by hand the full length, pinion on the rack
 
