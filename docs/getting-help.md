@@ -9,7 +9,6 @@ For the managed service or a setup password, email [info@autofab.net](mailto:inf
 
 ## This hardware guide
 - Walk the numbered path from [Set up your cell](setup/01-whats-in-the-box.md).
-- Check [Troubleshooting](troubleshooting.md).
 - Open a GitHub **issue** if a step in this guide is wrong. Never post passwords, setup-card details, claim codes, tokens, or photos that show them.
 
 ## Security and conduct
