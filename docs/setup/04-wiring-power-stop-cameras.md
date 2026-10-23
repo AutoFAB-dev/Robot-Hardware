@@ -17,7 +17,7 @@ The rail servo sits on the same cable chain as the arm, after the gripper. You s
 ## Cameras
 1. Plug the powered USB hub into the Pi.
 2. Plug the wrist camera and the scene camera into the **hub**, not into the Pi alone (two cameras can starve the Pi of power).
-3. Fit the wrist camera on the gripper if it is still packed separately (four small screws into the mount, two into the gripper).
+3. Fit the wrist camera on the gripper (four small screws into the mount, two into the gripper).
 4. Fix the scene camera so it sees the whole bed. Don't move it after you finish setup.
 
 ## Network cable

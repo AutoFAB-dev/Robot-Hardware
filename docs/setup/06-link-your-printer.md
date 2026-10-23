@@ -20,7 +20,7 @@ It has run on a Voron (Klipper), Creality K2 Plus with CFS, Creality K1, Bambu L
 3. Pick that printer **explicitly**. Follow the prompts — the app asks for what it needs.
 4. Wait until the printer shows as reachable.
 
-If it shows unreachable, move the printer and the cell onto one network, confirm the printer's own app can still see it, and try again. See [Troubleshooting](../troubleshooting.md).
+If it shows unreachable, move the printer and the cell onto one network, confirm the printer's own app can still see it, and try again.
 
 Don't type passwords, claim codes, or printer access codes into a GitHub issue. If you are stuck, use [Getting help](../getting-help.md).
 

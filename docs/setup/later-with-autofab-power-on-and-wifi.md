@@ -11,11 +11,11 @@ Bring the small computer online and add the cell to your AutoFAB account. AutoFA
 > **An updated setup flow is coming.** Use the steps below for now. See [Coming soon](#coming-soon).
 
 ## If the microSD card is blank
-1. Get the provided AutoFAB cell image. **TODO:** public download (ask via [info@autofab.net](mailto:info@autofab.net) for now).
-2. Write it with [Raspberry Pi Imager](https://www.raspberrypi.com/software/) — choose "Use custom".
-3. Use a fresh flash for this cell. Don't copy a card from a cell that has already been turned on.
+Flash stock Raspberry Pi OS Lite (64-bit) and run the install script already in this repo. Follow [5. Flash, install, remote access](05-flash-install-remote-access.md). Don't copy a card from a cell that has already been turned on.
 
-If the card came already written, skip this.
+After step 5, AutoFAB installs and updates the cell software remotely. The setup Wi-Fi and claim steps on this page apply once that's done.
+
+If you already completed step 5, skip this.
 
 ## Power the computer
 1. Insert the card (or confirm it is already in).
@@ -28,7 +28,7 @@ If the card came already written, skip this.
 3. The page gives you a **claim link** (and may show a code). Don't unplug the Pi.
 4. Leave the setup network. Switch your phone back to your usual Wi-Fi or mobile data.
 
-If the shop Wi-Fi details were wrong, `AutoFAB-XXXX` comes back. Join that same setup network again and retry. Don't re-flash. More help: [Troubleshooting](../troubleshooting.md).
+If the shop Wi-Fi details were wrong, `AutoFAB-XXXX` comes back. Join that same setup network again and retry. Don't re-flash. More help: [Getting help](../getting-help.md).
 
 ## Add the cell in the app
 1. On usual Wi-Fi or mobile data, open the claim link if you have one, or go to [app.autofab.net](https://app.autofab.net).
@@ -39,7 +39,7 @@ If the shop Wi-Fi details were wrong, `AutoFAB-XXXX` comes back. Join that same 
 The cell needs a normal outbound internet connection (HTTPS) and must be on the same network as the printers.
 
 ## Coming soon
-Placeholder: an updated setup flow will replace some of these steps (image download, DIY setup password, and which checks you do yourself). Until then, follow this page and email [info@autofab.net](mailto:info@autofab.net) if you need a password.
+Placeholder: an updated setup flow will replace some of these steps (DIY setup password, and which checks you do yourself). Until then, follow this page and email [info@autofab.net](mailto:info@autofab.net) if you need a password.
 
 **Back:** [4. Wiring, power, stop and cameras](04-wiring-power-stop-cameras.md)
 **Next:** [6. Link your printer](06-link-your-printer.md)

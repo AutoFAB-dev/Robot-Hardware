@@ -1,6 +1,6 @@
 # Rail — checks
 
-Credit: carriage travel and pinion mesh from leslider assembly plus the customer mount step. Click / jump notes match [troubleshooting](../../troubleshooting.md).
+Credit: carriage travel and pinion mesh from leslider assembly plus the customer mount step.
 
 **TODO image:** rail clamped, carriage rolled by hand the full length, pinion on the rack
 
@@ -13,7 +13,7 @@ With **12 V off**:
 - [ ] Base mount is on the gantry (two M5, 20 mm spacing)
 - [ ] ElRobot adapter is fitted — file and fasteners still **TODO**; do not leave the SO-101 base mount standing in for ElRobot
 - [ ] Pinion is on the output gear and engaged with the rack
-- [ ] Carriage rolls the full length by hand. If it clicks or jumps, the pinion is not meshed
+- [ ] Carriage rolls the full length by hand. If it clicks or jumps, the pinion is not meshed. Re-seat the pinion on the rack.
 - [ ] Bus cable is after the gripper; slack loop along the rail; no snags
 
 Do not command motion from software for these checks. Powered checks are done with AutoFAB after handover.

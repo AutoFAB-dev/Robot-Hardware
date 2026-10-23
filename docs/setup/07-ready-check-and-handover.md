@@ -28,4 +28,4 @@ Arm calibration, rail home, bed height, fiducials and the first managed job are 
 
 **Back:** [6. Link your printer](06-link-your-printer.md)
 
-Something not right? [Troubleshooting](../troubleshooting.md)
+Something not right? [Getting help](../getting-help.md)

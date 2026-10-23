@@ -6,6 +6,6 @@ Covers: the hardware designs and docs in this repo, and anything here that could
 For your cell:
 - Keep claim codes, setup passwords and any device credentials private.
 - Use a trusted network. Don't put the cell on a public or guest network.
-- Re-flash from the official image instead of cloning cards between cells.
+- Flash stock Raspberry Pi OS Lite and run the install script ([setup step 5](docs/setup/05-flash-install-remote-access.md)) instead of cloning cards between cells.
 
 Physical safety issues (e.g. a stop that doesn't stop the arm) are security issues too: report them the same way, and stop using the cell until they're fixed.
