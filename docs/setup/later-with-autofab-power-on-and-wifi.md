@@ -13,6 +13,8 @@ Bring the small computer online and add the cell to your AutoFAB account. AutoFA
 ## If the microSD card is blank
 Flash stock Raspberry Pi OS Lite (64-bit) and run the install script already in this repo. Follow [5. Flash, install, remote access](05-flash-install-remote-access.md). Don't copy a card from a cell that has already been turned on.
 
+After step 5, AutoFAB installs and updates the cell software remotely. The setup Wi-Fi and claim steps on this page apply once that's done.
+
 If you already completed step 5, skip this.
 
 ## Power the computer
