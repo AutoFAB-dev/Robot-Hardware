@@ -1,5 +1,5 @@
 # Security
-**Report vulnerabilities privately.** Use GitHub's "Report a vulnerability" (Security tab) on this repository. Don't open a public issue for security problems. TODO: confirm a security contact email.
+**Report vulnerabilities privately.** Use GitHub's "Report a vulnerability" (Security tab) on this repository, or email [info@autofab.net](mailto:info@autofab.net). Don't open a public issue for security problems.
 
 Covers: the hardware designs and docs in this repo, and anything here that could cause unsafe robot behaviour or expose a cell or account.
 
