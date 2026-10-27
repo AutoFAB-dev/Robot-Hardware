@@ -1,15 +1,15 @@
 # Rail — assembly
 
-Credit: leslider [assembly](https://github.com/pham-tuan-binh/leslider#3-assembly) (README section 3). Adapter steps are AutoFAB and are **TODO**. ID 9 is the AutoFAB cell map, not leslider’s default 7.
+Credit: leslider [assembly](https://github.com/pham-tuan-binh/leslider#3-assembly) (README section 3). Adapter steps are AutoFAB and are **Adapter: not yet released**. ID 9 is the AutoFAB cell map, not leslider’s default 7.
 
 **Safety:** Keep 12 V unplugged except when setting the rail ID. Support the arm if it is already on the carriage.
 
-Tools: **TODO** (leslider does not list tools). PH1 / PH2 from the ElRobot kit will turn the listed M3 hardware; M5 tools are **TODO**.
+Tools: hex keys matching the M3 and M5 hardware listed in [parts](parts.md) (leslider does not list tools).
 
 ## Prepare
 **TODO image:** printed legs, pinion, track segments, and adapter cleaned
 
-1. Print the leslider parts and the adapter ([parts](parts.md)). Remove supports. The pinion bore and the track slot in the extrusion must be clear.
+1. Print the leslider parts and the adapter ([parts](parts.md)). **Adapter: not yet released.** Remove supports. The pinion bore and the track slot in the extrusion must be clear.
 2. Confirm extrusion length suits your printers. leslider: 300 to 500 mm is typical; this cell: “length to suit your printers.”
 
 ## Set ID 9
@@ -43,8 +43,8 @@ Tools: **TODO** (leslider does not list tools). PH1 / PH2 from the ElRobot kit w
 ## ElRobot adapter
 **TODO image:** adapter between the leslider carriage and the ElRobot base
 
-11. Fit the ElRobot-to-carriage adapter. File, hole pattern, and fasteners: **TODO**. leslider’s next step bolts an SO-101 base through four M3 ≥20 mm holes in that arm’s base bracket — do not treat that pattern as ElRobot’s.
-12. Attach the ElRobot base to the adapter. Fasteners: **TODO**.
+11. Fit the ElRobot-to-carriage adapter. File, hole pattern, and fasteners: **Adapter: not yet released**. leslider’s next step bolts an SO-101 base through four M3 ≥20 mm holes in that arm’s base bracket — do not treat that pattern as ElRobot’s.
+12. Attach the ElRobot base to the adapter. Fasteners: **Adapter: not yet released**.
 
 ## Rail drive (servo 9)
 **TODO image:** servo 9 in the base-mount cutout, pinion on the rack
