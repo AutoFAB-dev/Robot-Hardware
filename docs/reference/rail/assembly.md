@@ -1,6 +1,6 @@
 # Rail — assembly
 
-Credit: leslider [assembly](https://github.com/pham-tuan-binh/leslider#3-assembly) (README section 3). Adapter steps are AutoFAB and are **Adapter: not yet released**. ID 9 is the AutoFAB cell map, not leslider’s default 7.
+Credit: leslider [assembly](https://github.com/pham-tuan-binh/leslider#3-assembly) (README section 3). Adapter steps are AutoFAB's and are **not yet released**. ID 9 is the AutoFAB cell map, not leslider’s default 7.
 
 **Safety:** Keep 12 V unplugged except when setting the rail ID. Support the arm if it is already on the carriage.
 
